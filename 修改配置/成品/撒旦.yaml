@@ -1,0 +1,3334 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+
+proxies:
+  - {name: 🇭🇰 香港 ❀原生A❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58801, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇭🇰 香港 ❀原生A❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58802, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇭🇰 香港 ❀原生B❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58803, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇭🇰 香港 ❀原生B❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58804, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇸🇬 新加坡 ❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58805, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇸🇬 新加坡 ❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58806, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇯🇵 日本 ❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58807, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇯🇵 日本 ❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58808, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇹🇼 台湾 ❀原生❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58809, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇹🇼 台湾 ❀原生❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58810, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇩🇪 德国 ❀GPT❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58811, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇩🇪 德国 ❀GPT❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58812, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇻🇳 越南 ❀原生❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58813, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇻🇳 越南 ❀原生❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58814, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇰🇷 韩国 ❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58815, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇰🇷 韩国 ❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58816, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇮🇳 印度 ❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58817, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇮🇳 印度 ❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58818, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇺🇸 美国 ❀原生❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58819, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇺🇸 美国 ❀原生❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58820, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇷🇺 俄罗斯 ❀大豆豆❀1x, server: lol.midouzi.xyz, port: 58821, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 🇷🇺 俄罗斯 ❀小豆豆❀1x, server: lol.midouzi.xyz, port: 58822, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: d4ec4c4c-4b04-4076-b42b-16c7962e491e, tfo: false}
+  - {name: 距离下次重置剩余：29 天, server: ovozhaws.ovonice.com, port: 60001, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 1元100G  https://ovofast.com, server: ovozhaws.ovonice.com, port: 60001, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 小妮妮, server: ovozhaws.ovonice.com, port: 60001, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 中妮妮, server: ovozhaws.ovonice.com, port: 60001, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 - 大妮妮, server: ovozhaws.ovonice.com, port: 60001, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 - 小妮妮, server: ovozhaws.ovonice.com, port: 60002, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 - 中妮妮, server: ovozhaws.ovonice.com, port: 60002, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 - 大妮妮, server: ovozhaws.ovonice.com, port: 60002, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 - 小妮妮, server: ovozhaws.ovonice.com, port: 60003, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 - 中妮妮, server: ovozhaws.ovonice.com, port: 60003, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾 - 大妮妮, server: ovozhaws.ovonice.com, port: 60003, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 - 小妮妮, server: ovozhaws.ovonice.com, port: 60005, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 - 中妮妮, server: ovozhaws.ovonice.com, port: 60005, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 - 大妮妮, server: ovozhaws.ovonice.com, port: 60005, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 - 小妮妮, server: ovozhaws.ovonice.com, port: 60006, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 - 中妮妮, server: ovozhaws.ovonice.com, port: 60006, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇮🇳 印度 - 大妮妮, server: ovozhaws.ovonice.com, port: 60006, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 小妮妮, server: ovozhaws.ovonice.com, port: 60004, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 中妮妮, server: ovozhaws.ovonice.com, port: 60004, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 - 大妮妮, server: ovozhaws.ovonice.com, port: 60004, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 - 小妮妮, server: ovozhaws.ovonice.com, port: 60000, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 - 中妮妮, server: ovozhaws.ovonice.com, port: 60000, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 - 大妮妮, server: ovozhaws.ovonice.com, port: 60000, client-fingerprint: chrome, type: trojan, password: 252c9c73-edb2-40c5-941e-ea3557a65ee3, tfo: false, sni: ovo.ovonice.com, skip-cert-verify: false}
+  - {name: 距离下次重置剩余：4 天, server: cfcdn2.sanfencdn.net, port: 443, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn1.com}}}
+  - {name: shop.sanfen.co 站内返利65%, server: cfcdn2.sanfencdn.net, port: 443, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn1.com}}}
+  - {name: 🇺🇸 美国高速接入点-01, server: cfcdn2.sanfencdn.net, port: 443, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn1.com}}}
+  - {name: 🇺🇸 美国高速接入点-02, server: cfcdn2.sanfencdn.net, port: 443, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn1.com}}}
+  - {name: 🇺🇸 美国高速接入点-03, server: cfcdn2.sanfencdn.net, port: 443, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us3.sanfencdn1.com}}}
+  - {name: 🇺🇸 美国高速接入点-04, server: cfcdn2.sanfencdn.net, port: 443, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us1.sanfencdn1.com, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us4.sanfencdn1.com}}}
+  - {name: 🇺🇸 美国高速接入点-05, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us5.sanfencdn2.com}}}
+  - {name: 🇺🇸 美国高速接入点-06, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us6.sanfencdn2.com}}}
+  - {name: 🇺🇸 美国高速接入点-07, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us7.sanfencdn2.com}}}
+  - {name: 🇺🇸 美国高速接入点-08, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us8.sanfencdn2.com}}}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: cfcdn3.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg1.sanfencdn2.com}}}
+  - {name: 🇸🇬 新加坡高速接入点-02, server: cfcdn3.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg2.sanfencdn2.com}}}
+  - {name: 🇸🇬 新加坡高速接入点-03, server: cfcdn3.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg3.sanfencdn2.com}}}
+  - {name: 🇭🇰 香港高速接入点-01, server: cfcdn3.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfencdn2.com}}}
+  - {name: 🇹🇼 台湾高速接入点-01, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: tw1.sanfencdn2.com}}}
+  - {name: 🇯🇵 日本高速接入点-01, server: cfcdn5.sanfencdn.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp1.sanfencdn2.com}}}
+  - {name: 🇯🇵 日本高速接入点-02, server: cfcdn5.sanfencdn.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp2.sanfencdn2.com}}}
+  - {name: 🇯🇵 日本高速接入点-03, server: cfcdn5.sanfencdn.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp3.sanfencdn2.com}}}
+  - {name: 🇯🇵 日本高速接入点-04, server: cfcdn5.sanfencdn.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp4.sanfencdn2.com}}}
+  - {name: 🇯🇵 日本高速接入点-05, server: cfcdn5.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp5.sanfencdn2.com}}}
+  - {name: 🇯🇵 日本高速接入点-06, server: cfcdn5.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp6.sanfencdn2.com}}}
+  - {name: 🇩🇪 10x-德国-临时中转-30M, server: 6b670e6c2ea9.sanfen006.xyz, port: 56514, client-fingerprint: chrome, type: vmess, uuid: 14907579-743f-4db5-a496-e70c45335897, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: Workers1, server: cdn-b100.xn--b6gac.eu.org, port: 2095, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers2, server: cdn.anycast.eu.org, port: 8880, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers3, server: cdn-b100.xn--b6gac.eu.org, port: 8080, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers4, server: cdn-b100.xn--b6gac.eu.org, port: 2086, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers5, server: cdn.anycast.eu.org, port: 8880, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers6, server: cdn-b100.xn--b6gac.eu.org, port: 2086, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers7, server: cdn.xn--b6gac.eu.org, port: 8880, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers8, server: cdn-b100.xn--b6gac.eu.org, port: 2052, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers9, server: cdn-b100.xn--b6gac.eu.org, port: 8080, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers10, server: cdn-b100.xn--b6gac.eu.org, port: 8880, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers11, server: cdn-b100.xn--b6gac.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers12, server: cdn.anycast.eu.org, port: 2086, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers13, server: cdn-b100.xn--b6gac.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers14, server: cdn-b100.xn--b6gac.eu.org, port: 2095, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers15, server: cdn-b100.xn--b6gac.eu.org, port: 8880, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers16, server: cdn.anycast.eu.org, port: 2052, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers17, server: cdn-b100.xn--b6gac.eu.org, port: 2052, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers18, server: cdn.anycast.eu.org, port: 2095, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers19, server: cdn.anycast.eu.org, port: 2095, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers20, server: cdn.xn--b6gac.eu.org, port: 2086, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers21, server: www.visa.com.sg, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers22, server: cdn.anycast.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers23, server: cdn.anycast.eu.org, port: 2052, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers24, server: cdn.xn--b6gac.eu.org, port: 2095, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers25, server: cdn.xn--b6gac.eu.org, port: 8080, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers26, server: cdn.xn--b6gac.eu.org, port: 2052, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers27, server: cdn.xn--b6gac.eu.org, port: 8880, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers28, server: cdn.xn--b6gac.eu.org, port: 2086, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers29, server: cdn.xn--b6gac.eu.org, port: 2095, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers30, server: cdn.xn--b6gac.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers31, server: cdn.xn--b6gac.eu.org, port: 8080, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers32, server: cdn.anycast.eu.org, port: 8080, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers33, server: cdn.anycast.eu.org, port: 2086, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers34, server: cdn.anycast.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers35, server: cdn.xn--b6gac.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers36, server: cdn.xn--b6gac.eu.org, port: 2052, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers37, server: cdn.anycast.eu.org, port: 80, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: Workers38, server: cdn.anycast.eu.org, port: 8080, client-fingerprint: random, type: vless, uuid: d046d826-5346-40ad-b643-478eacbad4c7, tls: false, tfo: false, servername: qwweeerrrr01.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr01.18715260182.workers.dev}}}
+  - {name: 自建5, server: 172.67.52.63, port: 80, client-fingerprint: randomized, type: vless, uuid: 37aaf808-03b3-4fe5-9680-98302eb29315, tls: false, tfo: false, servername: qwweeerrrr.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr.18715260182.workers.dev}}}
+  - {name: 自建4, server: 172.67.115.32, port: 80, client-fingerprint: randomized, type: vless, uuid: 37aaf808-03b3-4fe5-9680-98302eb29315, tls: false, tfo: false, servername: qwweeerrrr.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr.18715260182.workers.dev}}}
+  - {name: 自建3, server: 172.67.79.60, port: 2052, client-fingerprint: randomized, type: vless, uuid: 37aaf808-03b3-4fe5-9680-98302eb29315, tls: false, tfo: false, servername: qwweeerrrr.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr.18715260182.workers.dev}}}
+  - {name: 自建2, server: 172.67.236.187, port: 2052, client-fingerprint: randomized, type: vless, uuid: 37aaf808-03b3-4fe5-9680-98302eb29315, tls: false, tfo: false, servername: qwweeerrrr.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr.18715260182.workers.dev}}}
+  - {name: 自建1, server: 172.67.236.187, port: 2052, client-fingerprint: randomized, type: vless, uuid: 37aaf808-03b3-4fe5-9680-98302eb29315, tls: false, tfo: false, servername: qwweeerrrr.18715260182.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: qwweeerrrr.18715260182.workers.dev}}}
+proxy-groups:
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - 🇭🇰 香港 ❀原生A❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生A❀小豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀小豆豆❀1x
+      - 🇸🇬 新加坡 ❀大豆豆❀1x
+      - 🇸🇬 新加坡 ❀小豆豆❀1x
+      - 🇯🇵 日本 ❀大豆豆❀1x
+      - 🇯🇵 日本 ❀小豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀大豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀小豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀大豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀小豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀大豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀小豆豆❀1x
+      - 🇰🇷 韩国 ❀大豆豆❀1x
+      - 🇰🇷 韩国 ❀小豆豆❀1x
+      - 🇮🇳 印度 ❀大豆豆❀1x
+      - 🇮🇳 印度 ❀小豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀大豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀小豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀大豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀小豆豆❀1x
+      - 距离下次重置剩余：29 天
+      - 1元100G  https://ovofast.com
+      - 🇯🇵 日本 - 小妮妮
+      - 🇯🇵 日本 - 中妮妮
+      - 🇯🇵 日本 - 大妮妮
+      - 🇸🇬 新加坡 - 小妮妮
+      - 🇸🇬 新加坡 - 中妮妮
+      - 🇸🇬 新加坡 - 大妮妮
+      - 🇹🇼 台湾 - 小妮妮
+      - 🇹🇼 台湾 - 中妮妮
+      - 🇹🇼 台湾 - 大妮妮
+      - 🇰🇷 韩国 - 小妮妮
+      - 🇰🇷 韩国 - 中妮妮
+      - 🇰🇷 韩国 - 大妮妮
+      - 🇮🇳 印度 - 小妮妮
+      - 🇮🇳 印度 - 中妮妮
+      - 🇮🇳 印度 - 大妮妮
+      - 🇺🇸 美国 - 小妮妮
+      - 🇺🇸 美国 - 中妮妮
+      - 🇺🇸 美国 - 大妮妮
+      - 🇭🇰 香港 - 小妮妮
+      - 🇭🇰 香港 - 中妮妮
+      - 🇭🇰 香港 - 大妮妮
+      - 距离下次重置剩余：4 天
+      - shop.sanfen.co 站内返利65%
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国高速接入点-05
+      - 🇺🇸 美国高速接入点-06
+      - 🇺🇸 美国高速接入点-07
+      - 🇺🇸 美国高速接入点-08
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇹🇼 台湾高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本高速接入点-03
+      - 🇯🇵 日本高速接入点-04
+      - 🇯🇵 日本高速接入点-05
+      - 🇯🇵 日本高速接入点-06
+      - 🇩🇪 10x-德国-临时中转-30M
+      - Workers1
+      - Workers2
+      - Workers3
+      - Workers4
+      - Workers5
+      - Workers6
+      - Workers7
+      - Workers8
+      - Workers9
+      - Workers10
+      - Workers11
+      - Workers12
+      - Workers13
+      - Workers14
+      - Workers15
+      - Workers16
+      - Workers17
+      - Workers18
+      - Workers19
+      - Workers20
+      - Workers21
+      - Workers22
+      - Workers23
+      - Workers24
+      - Workers25
+      - Workers26
+      - Workers27
+      - Workers28
+      - Workers29
+      - Workers30
+      - Workers31
+      - Workers32
+      - Workers33
+      - Workers34
+      - Workers35
+      - Workers36
+      - Workers37
+      - Workers38
+      - 自建5
+      - 自建4
+      - 自建3
+      - 自建2
+      - 自建1
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🆓 搭建cloudflare
+      - 🚁 自建节点
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🛸 IP归属地伪装
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港 ❀原生A❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生A❀小豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀小豆豆❀1x
+      - 🇸🇬 新加坡 ❀大豆豆❀1x
+      - 🇸🇬 新加坡 ❀小豆豆❀1x
+      - 🇯🇵 日本 ❀大豆豆❀1x
+      - 🇯🇵 日本 ❀小豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀大豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀小豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀大豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀小豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀大豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀小豆豆❀1x
+      - 🇰🇷 韩国 ❀大豆豆❀1x
+      - 🇰🇷 韩国 ❀小豆豆❀1x
+      - 🇮🇳 印度 ❀大豆豆❀1x
+      - 🇮🇳 印度 ❀小豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀大豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀小豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀大豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀小豆豆❀1x
+      - 距离下次重置剩余：29 天
+      - 1元100G  https://ovofast.com
+      - 🇯🇵 日本 - 小妮妮
+      - 🇯🇵 日本 - 中妮妮
+      - 🇯🇵 日本 - 大妮妮
+      - 🇸🇬 新加坡 - 小妮妮
+      - 🇸🇬 新加坡 - 中妮妮
+      - 🇸🇬 新加坡 - 大妮妮
+      - 🇹🇼 台湾 - 小妮妮
+      - 🇹🇼 台湾 - 中妮妮
+      - 🇹🇼 台湾 - 大妮妮
+      - 🇰🇷 韩国 - 小妮妮
+      - 🇰🇷 韩国 - 中妮妮
+      - 🇰🇷 韩国 - 大妮妮
+      - 🇮🇳 印度 - 小妮妮
+      - 🇮🇳 印度 - 中妮妮
+      - 🇮🇳 印度 - 大妮妮
+      - 🇺🇸 美国 - 小妮妮
+      - 🇺🇸 美国 - 中妮妮
+      - 🇺🇸 美国 - 大妮妮
+      - 🇭🇰 香港 - 小妮妮
+      - 🇭🇰 香港 - 中妮妮
+      - 🇭🇰 香港 - 大妮妮
+      - 距离下次重置剩余：4 天
+      - shop.sanfen.co 站内返利65%
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国高速接入点-05
+      - 🇺🇸 美国高速接入点-06
+      - 🇺🇸 美国高速接入点-07
+      - 🇺🇸 美国高速接入点-08
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇹🇼 台湾高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本高速接入点-03
+      - 🇯🇵 日本高速接入点-04
+      - 🇯🇵 日本高速接入点-05
+      - 🇯🇵 日本高速接入点-06
+      - 🇩🇪 10x-德国-临时中转-30M
+      - Workers1
+      - Workers2
+      - Workers3
+      - Workers4
+      - Workers5
+      - Workers6
+      - Workers7
+      - Workers8
+      - Workers9
+      - Workers10
+      - Workers11
+      - Workers12
+      - Workers13
+      - Workers14
+      - Workers15
+      - Workers16
+      - Workers17
+      - Workers18
+      - Workers19
+      - Workers20
+      - Workers21
+      - Workers22
+      - Workers23
+      - Workers24
+      - Workers25
+      - Workers26
+      - Workers27
+      - Workers28
+      - Workers29
+      - Workers30
+      - Workers31
+      - Workers32
+      - Workers33
+      - Workers34
+      - Workers35
+      - Workers36
+      - Workers37
+      - Workers38
+      - 自建5
+      - 自建4
+      - 自建3
+      - 自建2
+      - 自建1
+  - name: 📞 GoogleVoice
+    type: select
+    proxies:
+      - 🇭🇰 香港 ❀原生A❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生A❀小豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀小豆豆❀1x
+      - 🇸🇬 新加坡 ❀大豆豆❀1x
+      - 🇸🇬 新加坡 ❀小豆豆❀1x
+      - 🇯🇵 日本 ❀大豆豆❀1x
+      - 🇯🇵 日本 ❀小豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀大豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀小豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀大豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀小豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀大豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀小豆豆❀1x
+      - 🇰🇷 韩国 ❀大豆豆❀1x
+      - 🇰🇷 韩国 ❀小豆豆❀1x
+      - 🇮🇳 印度 ❀大豆豆❀1x
+      - 🇮🇳 印度 ❀小豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀大豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀小豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀大豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀小豆豆❀1x
+      - 距离下次重置剩余：29 天
+      - 1元100G  https://ovofast.com
+      - 🇯🇵 日本 - 小妮妮
+      - 🇯🇵 日本 - 中妮妮
+      - 🇯🇵 日本 - 大妮妮
+      - 🇸🇬 新加坡 - 小妮妮
+      - 🇸🇬 新加坡 - 中妮妮
+      - 🇸🇬 新加坡 - 大妮妮
+      - 🇹🇼 台湾 - 小妮妮
+      - 🇹🇼 台湾 - 中妮妮
+      - 🇹🇼 台湾 - 大妮妮
+      - 🇰🇷 韩国 - 小妮妮
+      - 🇰🇷 韩国 - 中妮妮
+      - 🇰🇷 韩国 - 大妮妮
+      - 🇮🇳 印度 - 小妮妮
+      - 🇮🇳 印度 - 中妮妮
+      - 🇮🇳 印度 - 大妮妮
+      - 🇺🇸 美国 - 小妮妮
+      - 🇺🇸 美国 - 中妮妮
+      - 🇺🇸 美国 - 大妮妮
+      - 🇭🇰 香港 - 小妮妮
+      - 🇭🇰 香港 - 中妮妮
+      - 🇭🇰 香港 - 大妮妮
+      - 距离下次重置剩余：4 天
+      - shop.sanfen.co 站内返利65%
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国高速接入点-05
+      - 🇺🇸 美国高速接入点-06
+      - 🇺🇸 美国高速接入点-07
+      - 🇺🇸 美国高速接入点-08
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇹🇼 台湾高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本高速接入点-03
+      - 🇯🇵 日本高速接入点-04
+      - 🇯🇵 日本高速接入点-05
+      - 🇯🇵 日本高速接入点-06
+      - 🇩🇪 10x-德国-临时中转-30M
+      - Workers1
+      - Workers2
+      - Workers3
+      - Workers4
+      - Workers5
+      - Workers6
+      - Workers7
+      - Workers8
+      - Workers9
+      - Workers10
+      - Workers11
+      - Workers12
+      - Workers13
+      - Workers14
+      - Workers15
+      - Workers16
+      - Workers17
+      - Workers18
+      - Workers19
+      - Workers20
+      - Workers21
+      - Workers22
+      - Workers23
+      - Workers24
+      - Workers25
+      - Workers26
+      - Workers27
+      - Workers28
+      - Workers29
+      - Workers30
+      - Workers31
+      - Workers32
+      - Workers33
+      - Workers34
+      - Workers35
+      - Workers36
+      - Workers37
+      - Workers38
+      - 自建5
+      - 自建4
+      - 自建3
+      - 自建2
+      - 自建1
+  - name: 👨‍💻 GitHub
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 💬 OpenAi
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🎥 Netflix
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🎵 抖音
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港 ❀原生A❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生A❀小豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀小豆豆❀1x
+      - 🇸🇬 新加坡 ❀大豆豆❀1x
+      - 🇸🇬 新加坡 ❀小豆豆❀1x
+      - 🇯🇵 日本 ❀大豆豆❀1x
+      - 🇯🇵 日本 ❀小豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀大豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀小豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀大豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀小豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀大豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀小豆豆❀1x
+      - 🇰🇷 韩国 ❀大豆豆❀1x
+      - 🇰🇷 韩国 ❀小豆豆❀1x
+      - 🇮🇳 印度 ❀大豆豆❀1x
+      - 🇮🇳 印度 ❀小豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀大豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀小豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀大豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀小豆豆❀1x
+      - 距离下次重置剩余：29 天
+      - 1元100G  https://ovofast.com
+      - 🇯🇵 日本 - 小妮妮
+      - 🇯🇵 日本 - 中妮妮
+      - 🇯🇵 日本 - 大妮妮
+      - 🇸🇬 新加坡 - 小妮妮
+      - 🇸🇬 新加坡 - 中妮妮
+      - 🇸🇬 新加坡 - 大妮妮
+      - 🇹🇼 台湾 - 小妮妮
+      - 🇹🇼 台湾 - 中妮妮
+      - 🇹🇼 台湾 - 大妮妮
+      - 🇰🇷 韩国 - 小妮妮
+      - 🇰🇷 韩国 - 中妮妮
+      - 🇰🇷 韩国 - 大妮妮
+      - 🇮🇳 印度 - 小妮妮
+      - 🇮🇳 印度 - 中妮妮
+      - 🇮🇳 印度 - 大妮妮
+      - 🇺🇸 美国 - 小妮妮
+      - 🇺🇸 美国 - 中妮妮
+      - 🇺🇸 美国 - 大妮妮
+      - 🇭🇰 香港 - 小妮妮
+      - 🇭🇰 香港 - 中妮妮
+      - 🇭🇰 香港 - 大妮妮
+      - 距离下次重置剩余：4 天
+      - shop.sanfen.co 站内返利65%
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国高速接入点-05
+      - 🇺🇸 美国高速接入点-06
+      - 🇺🇸 美国高速接入点-07
+      - 🇺🇸 美国高速接入点-08
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇹🇼 台湾高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本高速接入点-03
+      - 🇯🇵 日本高速接入点-04
+      - 🇯🇵 日本高速接入点-05
+      - 🇯🇵 日本高速接入点-06
+      - 🇩🇪 10x-德国-临时中转-30M
+      - Workers1
+      - Workers2
+      - Workers3
+      - Workers4
+      - Workers5
+      - Workers6
+      - Workers7
+      - Workers8
+      - Workers9
+      - Workers10
+      - Workers11
+      - Workers12
+      - Workers13
+      - Workers14
+      - Workers15
+      - Workers16
+      - Workers17
+      - Workers18
+      - Workers19
+      - Workers20
+      - Workers21
+      - Workers22
+      - Workers23
+      - Workers24
+      - Workers25
+      - Workers26
+      - Workers27
+      - Workers28
+      - Workers29
+      - Workers30
+      - Workers31
+      - Workers32
+      - Workers33
+      - Workers34
+      - Workers35
+      - Workers36
+      - Workers37
+      - Workers38
+      - 自建5
+      - 自建4
+      - 自建3
+      - 自建2
+      - 自建1
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🚁 自建节点
+      - 🆓 搭建cloudflare
+      - 🛒 购买节点
+      - 🛒 低价量大购买
+  - name: 🛒 购买节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港 ❀原生A❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生A❀小豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀大豆豆❀1x
+      - 🇭🇰 香港 ❀原生B❀小豆豆❀1x
+      - 🇸🇬 新加坡 ❀大豆豆❀1x
+      - 🇸🇬 新加坡 ❀小豆豆❀1x
+      - 🇯🇵 日本 ❀大豆豆❀1x
+      - 🇯🇵 日本 ❀小豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀大豆豆❀1x
+      - 🇹🇼 台湾 ❀原生❀小豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀大豆豆❀1x
+      - 🇩🇪 德国 ❀GPT❀小豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀大豆豆❀1x
+      - 🇻🇳 越南 ❀原生❀小豆豆❀1x
+      - 🇰🇷 韩国 ❀大豆豆❀1x
+      - 🇰🇷 韩国 ❀小豆豆❀1x
+      - 🇮🇳 印度 ❀大豆豆❀1x
+      - 🇮🇳 印度 ❀小豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀大豆豆❀1x
+      - 🇺🇸 美国 ❀原生❀小豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀大豆豆❀1x
+      - 🇷🇺 俄罗斯 ❀小豆豆❀1x
+      - 距离下次重置剩余：29 天
+      - 1元100G  https://ovofast.com
+      - 🇯🇵 日本 - 小妮妮
+      - 🇯🇵 日本 - 中妮妮
+      - 🇯🇵 日本 - 大妮妮
+      - 🇸🇬 新加坡 - 小妮妮
+      - 🇸🇬 新加坡 - 中妮妮
+      - 🇸🇬 新加坡 - 大妮妮
+      - 🇹🇼 台湾 - 小妮妮
+      - 🇹🇼 台湾 - 中妮妮
+      - 🇹🇼 台湾 - 大妮妮
+      - 🇰🇷 韩国 - 小妮妮
+      - 🇰🇷 韩国 - 中妮妮
+      - 🇰🇷 韩国 - 大妮妮
+      - 🇮🇳 印度 - 小妮妮
+      - 🇮🇳 印度 - 中妮妮
+      - 🇮🇳 印度 - 大妮妮
+      - 🇺🇸 美国 - 小妮妮
+      - 🇺🇸 美国 - 中妮妮
+      - 🇺🇸 美国 - 大妮妮
+      - 🇭🇰 香港 - 小妮妮
+      - 🇭🇰 香港 - 中妮妮
+      - 🇭🇰 香港 - 大妮妮
+      - 距离下次重置剩余：4 天
+      - shop.sanfen.co 站内返利65%
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国高速接入点-05
+      - 🇺🇸 美国高速接入点-06
+      - 🇺🇸 美国高速接入点-07
+      - 🇺🇸 美国高速接入点-08
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇹🇼 台湾高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本高速接入点-03
+      - 🇯🇵 日本高速接入点-04
+      - 🇯🇵 日本高速接入点-05
+      - 🇯🇵 日本高速接入点-06
+      - 🇩🇪 10x-德国-临时中转-30M
+  - name: 🛒 低价量大购买
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本 - 小妮妮
+      - 🇯🇵 日本 - 中妮妮
+      - 🇯🇵 日本 - 大妮妮
+      - 🇸🇬 新加坡 - 小妮妮
+      - 🇸🇬 新加坡 - 中妮妮
+      - 🇸🇬 新加坡 - 大妮妮
+      - 🇹🇼 台湾 - 小妮妮
+      - 🇹🇼 台湾 - 中妮妮
+      - 🇹🇼 台湾 - 大妮妮
+      - 🇰🇷 韩国 - 小妮妮
+      - 🇰🇷 韩国 - 中妮妮
+      - 🇰🇷 韩国 - 大妮妮
+      - 🇮🇳 印度 - 小妮妮
+      - 🇮🇳 印度 - 中妮妮
+      - 🇮🇳 印度 - 大妮妮
+      - 🇺🇸 美国 - 小妮妮
+      - 🇺🇸 美国 - 中妮妮
+      - 🇺🇸 美国 - 大妮妮
+      - 🇭🇰 香港 - 小妮妮
+      - 🇭🇰 香港 - 中妮妮
+      - 🇭🇰 香港 - 大妮妮
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国高速接入点-03
+      - 🇺🇸 美国高速接入点-04
+      - 🇺🇸 美国高速接入点-05
+      - 🇺🇸 美国高速接入点-06
+      - 🇺🇸 美国高速接入点-07
+      - 🇺🇸 美国高速接入点-08
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 🇸🇬 新加坡高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇹🇼 台湾高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - 🇯🇵 日本高速接入点-03
+      - 🇯🇵 日本高速接入点-04
+      - 🇯🇵 日本高速接入点-05
+      - 🇯🇵 日本高速接入点-06
+      - 🇩🇪 10x-德国-临时中转-30M
+  - name: 🆓 搭建cloudflare
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - Workers1
+      - Workers2
+      - Workers3
+      - Workers4
+      - Workers5
+      - Workers6
+      - Workers7
+      - Workers8
+      - Workers9
+      - Workers10
+      - Workers11
+      - Workers12
+      - Workers13
+      - Workers14
+      - Workers15
+      - Workers16
+      - Workers17
+      - Workers18
+      - Workers19
+      - Workers20
+      - Workers21
+      - Workers22
+      - Workers23
+      - Workers24
+      - Workers25
+      - Workers26
+      - Workers27
+      - Workers28
+      - Workers29
+      - Workers30
+      - Workers31
+      - Workers32
+      - Workers33
+      - Workers34
+      - Workers35
+      - Workers36
+      - Workers37
+      - Workers38
+  - name: 🚁 自建节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 自建5
+      - 自建4
+      - 自建3
+      - 自建2
+      - 自建1
+rules:
+  - DOMAIN-SUFFIX,biliapi.net,🛸 IP归属地伪装
+  - DOMAIN,api.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN,api.bilibili.tv,🛸 IP归属地伪装
+  - DOMAIN,app.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,biliapi.com,🛸 IP归属地伪装
+  - DOMAIN,api.live.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN,api.vc.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN,passport.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN,live-trace.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN,message.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN,cm.bilibili.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,bilibili.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,im9.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,acg.tv,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,biligame.com,🛸 IP归属地伪装
+  - IP-CIDR,203.107.1.0/24,🛸 IP归属地伪装,REJECT,no-resolve
+  - DOMAIN-SUFFIX,weibo.cn,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,weibo.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,weibocdn.com,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,weibo,🛸 IP归属地伪装
+  - DOMAIN,tieba.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,tbmsg.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,tb5.bdstatic.com,🛸 IP归属地伪装
+  - DOMAIN,fclog.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,gsp0.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,hm.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,www.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,tiebac.baidu.com,🛸 IP归属地伪装
+  - IP-CIDR,180.76.76.0/24,🛸 IP归属地伪装,no-resolve
+  - DOMAIN,httpsdns.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,c.tieba.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,httpdns.baidu.com,🛸 IP归属地伪装
+  - DOMAIN,httpdns.baidubce.com,🛸 IP归属地伪装
+  - DOMAIN,szshort.weixin.qq.com,🛸 IP归属地伪装
+  - DOMAIN,szextshort.weixin.qq.com,🛸 IP归属地伪装
+  - DOMAIN,szminorshort.weixin.qq.com,🛸 IP归属地伪装
+  - DOMAIN,mp.weixin.qq.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,zhihu.com,🛸 IP归属地伪装
+  - IP-CIDR,103.41.167.0/24,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,118.89.204.198/23,🛸 IP归属地伪装,REJECT,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,🛸 IP归属地伪装,REJECT,no-resolve
+  - DOMAIN-KEYWORD,core-c-lq,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,core-lq,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,normal-c-lq,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,normal-lq,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,search-quic-lq,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,search-lq,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,zijieapi.com,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,ecombdapi.com,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-KEYWORD,-normal-hl,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,-normal-c-hl,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,-core-c-hl,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,-normal-lf,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,-normal-c-lf,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,-core-c-lf,🛸 IP归属地伪装
+  - DOMAIN,sso.douyin.com,🛸 IP归属地伪装
+  - DOMAIN,www.douyin.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,snssdk.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,toutiaoapi.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,gifshow.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,ksapisrv.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,xiaohongshu.com,🛸 IP归属地伪装
+  - DOMAIN,keylol.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,ixigua.com,🛸 IP归属地伪装
+  - DOMAIN,www.wenshushu.cn,🛸 IP归属地伪装
+  - IP-CIDR,119.29.29.98/32,🛸 IP归属地伪装,REJECT,no-resolve
+  - DOMAIN,frodo.douban.com,🛸 IP归属地伪装
+  - DOMAIN,www.douban.com,🛸 IP归属地伪装
+  - DOMAIN,api.coolapk.com,🛸 IP归属地伪装
+  - DOMAIN,api.taptapdada.com,🛸 IP归属地伪装
+  - DOMAIN,god.gameyw.netease.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,huya.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,dongqiudi.com,🛸 IP归属地伪装
+  - DOMAIN,ngabbs.com,🛸 IP归属地伪装
+  - DOMAIN,bbs.nga.cn,🛸 IP归属地伪装
+  - DOMAIN,nga.178.com,🛸 IP归属地伪装
+  - DOMAIN,api.vip.miui.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,music.163.com,🛸 IP归属地伪装
+  - DOMAIN,nstool.netease.com,🛸 IP归属地伪装
+  - DOMAIN,wanproxy.127.net,🛸 IP归属地伪装
+  - DOMAIN,mam.netease.com,🛸 IP归属地伪装
+  - DOMAIN,dt.netease.im,🛸 IP归属地伪装
+  - DOMAIN,api.iplay.163.com,🛸 IP归属地伪装
+  - DOMAIN,api.k.163.com,🛸 IP归属地伪装
+  - DOMAIN,lbs.netease.im,🛸 IP归属地伪装
+  - DOMAIN,wannos.127.net,🛸 IP归属地伪装
+  - DOMAIN,ac.dun.163.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,music.126.net,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,laiqukankan.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,music.ntes53.netease.com,🛸 IP归属地伪装
+  - IP-CIDR,101.71.154.241/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,103.126.92.132/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,103.126.92.133/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,112.13.119.18/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,112.13.122.4/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,115.236.118.34/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,115.236.121.4/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,45.254.48.1/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,59.111.160.195/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,59.111.19.33/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,59.111.19.53/32,🛸 IP归属地伪装,no-resolve
+  - DOMAIN-SUFFIX,hls3-akm.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,hlsa-akm.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,hls1a-akm.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,hls3a-akm.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,vplay1a.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,vplay3a.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,ws-tct.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,akm-tct.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,tx2play1.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,tc-tct1.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,wsproxy.douyu.com,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,danmuproxy.douyu.com,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,img.douyucdn.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,douyucdn.cn,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,douyu.com,🛸 IP归属地伪装
+  - DOMAIN,bbs-api.mihoyo.com,🛸 IP归属地伪装
+  - DOMAIN,bbs-api.miyoushe.com,🛸 IP归属地伪装
+  - DOMAIN-SUFFIX,douban.com,🛸 IP归属地伪装
+  - IP-CIDR,49.233.242.15/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,81.70.124.99/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,81.70.125.19/32,🛸 IP归属地伪装,no-resolve
+  - IP-CIDR,140.143.177.206/32,🛸 IP归属地伪装,no-resolve
+  - DOMAIN,api.xiaoheihe.cn,🛸 IP归属地伪装
+  - DOMAIN,y.qq.com,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,y.qq.com,🛸 IP归属地伪装
+  - DOMAIN,zonai.skland.com,🛸 IP归属地伪装
+  - DOMAIN,china-img.soulapp.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN,img.soulapp.cn,🛸 IP归属地伪装,DIRECT
+  - DOMAIN-SUFFIX,soulapp.cn,🛸 IP归属地伪装
+  - DOMAIN-KEYWORD,github,👨‍💻 GitHub
+  - DOMAIN-SUFFIX,github.com,👨‍💻 GitHub
+  - DOMAIN-SUFFIX,github.io,👨‍💻 GitHub
+  - DOMAIN-SUFFIX,githubapp.com,👨‍💻 GitHub
+  - DOMAIN-SUFFIX,githubassets.com,👨‍💻 GitHub
+  - DOMAIN-SUFFIX,githubusercontent.com,👨‍💻 GitHub
+  - DOMAIN,lens.l.google.com,📞 GoogleVoice
+  - DOMAIN-SUFFIX,amemv.com,🎵 抖音
+  - DOMAIN-SUFFIX,douyincdn.com,🎵 抖音
+  - DOMAIN-SUFFIX,douyinpic.com,🎵 抖音
+  - DOMAIN-SUFFIX,douyinstatic.com,🎵 抖音
+  - DOMAIN-SUFFIX,douyinvod.com,🎵 抖音
+  - DOMAIN-SUFFIX,idouyinvod.com,🎵 抖音
+  - DOMAIN-SUFFIX,ixigua.com,🎵 抖音
+  - DOMAIN-SUFFIX,ixiguavideo.com,🎵 抖音
+  - DOMAIN-SUFFIX,pstatp.com,🎵 抖音
+  - DOMAIN-SUFFIX,snssdk.com,🎵 抖音
+  - DOMAIN-SUFFIX,toutiao.com,🎵 抖音
+  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,lan,🎯 全球直连
+  - DOMAIN-SUFFIX,local,🎯 全球直连
+  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
+  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
+  - DOMAIN,router.asus.com,🎯 全球直连
+  - DOMAIN,www.asusrouter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,my.router,🎯 全球直连
+  - DOMAIN-SUFFIX,p.to,🎯 全球直连
+  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
+  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
+  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+  - DOMAIN,dl.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+  - DOMAIN,livew.l.qq.com,🎯 全球直连
+  - DOMAIN,vd.l.qq.com,🎯 全球直连
+  - DOMAIN,errlog.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+  - DOMAIN,tracking.miui.com,🎯 全球直连
+  - DOMAIN,app.adjust.com,🎯 全球直连
+  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+  - DOMAIN,rewards.hypixel.net,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
+  - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
+  - DOMAIN,mtalk.google.com,📢 谷歌FCM
+  - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
+  - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
+  - DOMAIN-SUFFIX,265.com,🎯 全球直连
+  - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+  - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
+  - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
+  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
+  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+  - DOMAIN,wmsjsteam.com,🎯 全球直连
+  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+  - PROCESS-NAME,OneDrive,Ⓜ️ 微软云盘
+  - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软云盘
+  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软云盘
+  - DOMAIN-KEYWORD,onedrive,Ⓜ️ 微软云盘
+  - DOMAIN-KEYWORD,skydrive,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,oneclient.sfx.ms,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,onedrive.live.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,photos.live.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,storage.live.com,Ⓜ️ 微软云盘
+  - DOMAIN-SUFFIX,storage.msn.com,Ⓜ️ 微软云盘
+  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
+  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+  - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+  - IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
+  - IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
+  - IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
+  - IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
+  - IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
+  - IP-CIDR,144.178.36.0/22,🍎 苹果服务,no-resolve
+  - IP-CIDR,144.178.48.0/20,🍎 苹果服务,no-resolve
+  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
+  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
+  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+  - DOMAIN-SUFFIX,t.me,📲 Telegram
+  - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
+  - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
+  - DOMAIN-SUFFIX,telegram.me,📲 Telegram
+  - DOMAIN-SUFFIX,telegram.org,📲 Telegram
+  - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
+  - IP-CIDR,91.108.0.0/16,📲 Telegram,no-resolve
+  - IP-CIDR,109.239.140.0/24,📲 Telegram,no-resolve
+  - IP-CIDR,149.154.160.0/20,📲 Telegram,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,📲 Telegram,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram,no-resolve
+  - DOMAIN-KEYWORD,openai,💬 OpenAi
+  - DOMAIN-SUFFIX,auth0.com,💬 OpenAi
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,💬 OpenAi
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,💬 OpenAi
+  - DOMAIN-SUFFIX,events.statsigapi.net,💬 OpenAi
+  - DOMAIN-SUFFIX,featuregates.org,💬 OpenAi
+  - DOMAIN-SUFFIX,identrust.com,💬 OpenAi
+  - DOMAIN-SUFFIX,intercom.io,💬 OpenAi
+  - DOMAIN-SUFFIX,intercomcdn.com,💬 OpenAi
+  - DOMAIN-SUFFIX,openai.com,💬 OpenAi
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,💬 OpenAi
+  - DOMAIN-SUFFIX,sentry.io,💬 OpenAi
+  - DOMAIN-SUFFIX,stripe.com,💬 OpenAi
+  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,epicgames.dev,🎮 游戏平台
+  - DOMAIN-SUFFIX,helpshift.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,paragon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,unrealengine.com,🎮 游戏平台
+  - DOMAIN,cloudsync-prod.s3.amazonaws.com,🎮 游戏平台
+  - DOMAIN,eaasserts-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN,origin-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN,originasserts.akamaized.net,🎮 游戏平台
+  - DOMAIN,rtm.tnt-ea.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ea.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,origin.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sony.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+  - DOMAIN,steambroadcast.akamaized.net,🎮 游戏平台
+  - DOMAIN,steamcommunity-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN,steampipe.akamaized.net,🎮 游戏平台
+  - DOMAIN,steamstore-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN,steamusercontent-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN,steamuserimages-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,fanatical.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,humblebundle.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playartifact.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam-chat.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamserver.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstat.us,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,underlords.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo-europe.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.be,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.jp,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.uk,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com.au,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.de,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.es,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.eu,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.fr,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.it,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.jp,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.nl,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendowifi.net,🎮 游戏平台
+  - DOMAIN-KEYWORD,youtube,📹 YouTube
+  - DOMAIN,youtubei.googleapis.com,📹 YouTube
+  - DOMAIN,yt3.ggpht.com,📹 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+  - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
+  - DOMAIN-SUFFIX,withyoutube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubeeducation.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubegaming.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubekids.com,📹 YouTube
+  - DOMAIN-SUFFIX,yt.be,📹 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+  - DOMAIN-SUFFIX,ggpht.cn,📹 YouTube
+  - DOMAIN-SUFFIX,ggpht.com,📹 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+  - DOMAIN-SUFFIX,gvt1.com,📹 YouTube
+  - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
+  - DOMAIN-SUFFIX,video.google.com,📹 YouTube
+  - DOMAIN-SUFFIX,wide-youtube.l.google.com,📹 YouTube
+  - DOMAIN-SUFFIX,withyoutube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube-ui.l.google.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ae,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.al,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.am,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.at,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.az,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ba,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.be,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.bg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.bh,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.bo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.by,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ca,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cat,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ch,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cl,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ae,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.at,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.cr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.hu,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.id,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.il,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.jp,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ke,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.kr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ma,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.nz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.th,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.tz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ug,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.uk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ve,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.za,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.zw,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ar,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.au,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.az,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.bd,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.bh,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.bo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.br,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.by,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.co,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.do,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ec,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ee,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.eg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.es,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.gh,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.gr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.gt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.hk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.hn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.hr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.jm,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.jo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.kw,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.lb,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.lv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ly,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.mk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.mt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.mx,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.my,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ng,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ni,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.om,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pe,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ph,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.py,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.qa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ro,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.sa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.sg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.sv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.tn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.tr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.tw,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ua,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.uy,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ve,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.de,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.dk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ee,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.es,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.fi,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.fr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ge,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.googleapis.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.gr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.gt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.hk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.hr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.hu,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ie,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.iq,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.is,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.it,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.jo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.jp,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.kr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.kz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.la,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lu,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ly,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ma,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.md,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.me,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.mk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.mn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.mx,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.my,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ng,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ni,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.nl,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.no,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pe,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ph,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pl,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.qa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ro,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.rs,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ru,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.se,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.si,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.soy,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.tn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.tv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ua,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ug,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.uy,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.vn,📹 YouTube
+  - DOMAIN-SUFFIX,youtubeeducation.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubefanfest.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubegaming.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.co.id,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.co.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.com.br,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.id,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtubei.googleapis.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubekids.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubemobilesupport.com,📹 YouTube
+  - DOMAIN-SUFFIX,yt.be,📹 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+  - DOMAIN-KEYWORD,youtube,📹 YouTube
+  - IP-CIDR,172.110.32.0/21,📹 YouTube,no-resolve
+  - IP-CIDR,216.73.80.0/20,📹 YouTube,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,📹 YouTube,no-resolve
+  - DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,epicgames.dev,🎮 游戏平台
+  - DOMAIN-SUFFIX,helpshift.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,paragon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,unrealengine.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sony.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+  - DOMAIN,f3b7q2p3.ssl.hwcdn.net,🎮 游戏平台
+  - DOMAIN,steammobile.akamaized.net,🎮 游戏平台
+  - DOMAIN,steampipe-kr.akamaized.net,🎮 游戏平台
+  - DOMAIN,steampipe-partner.akamaized.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,csgo.wmsj.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,dota2.wmsj.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,fanatical.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,humblebundle.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playartifact.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,s.team,🎮 游戏平台
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam-api.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam-chat.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.apac.qtlglb.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.cdn.on.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.cdn.orcon.net.nz,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.cdn.webra.ru,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.eca.qtlglb.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.naeu.qtlglb.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam.ru.qtlglb.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamdeck.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamgames.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steampipe.akamaized.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstat.us,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamunlocked.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,underlords.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wmsjsteam.com,🎮 游戏平台
+  - DOMAIN-KEYWORD,steambroadcast,🎮 游戏平台
+  - DOMAIN-KEYWORD,steamstore,🎮 游戏平台
+  - DOMAIN-KEYWORD,steamuserimages,🎮 游戏平台
+  - DOMAIN-SUFFIX,100classicbooks.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ac-pocketcamp.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,amiibo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,ayudanintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,bowsersinsidestory.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,dialga.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,diddykongracing.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,dkr.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,donkeykongcountryreturns.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,drmario-world.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,excitebots.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,fire-emblem-heroes.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,fireemblemawakening.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,flipnotestudio.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,giratina.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,gloryofheracles.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,hackyourconsole.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,kirbysepicyarn.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,kirbysuperstarultra.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,kyurem.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,legendofzelda.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,legendofzelda.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,marioandluigidreamteam.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,mariobroswii.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,mariokart.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,mariokart.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,mariokart7.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,mariokart8.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,mariosupersluggers.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,miitomo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,miitomo.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,miiverse.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nentindo.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,newsupermariobrosu.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo-europe-sales.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo-europe.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.at,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.be,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.ch,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.jp,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.kr,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.uk,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.co.za,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com.au,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com.hk,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.com.pt,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.de,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.dk,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.es,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.eu,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.fi,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.fr,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.it,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.jp,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.nl,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.no,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.pt,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.ru,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.se,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo.tw,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendo3ds.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendodsi.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoeurope.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendolabo.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendonetwork.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendonyc.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendostore.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoswitch.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoswitch.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoswitch.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoswitch.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendoswitchtogether.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendowifi.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,nintendowii.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,personaltrainermath.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playnintendo.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokedex3d.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemon-moon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemon-sun.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemon-sunmoon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemon-unitepgame.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonbank.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonblackwhite.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonbw.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonchampionships.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemongoldsilver.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonhome.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonletsgoeevee.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonletsgopikachu.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonmysterydungeon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonpicross.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonplatinum.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonrubysapphire.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonsunmoon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonswordshield.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonultrasunmoon.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonvgc.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,pokemonwifi.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,splatoon2tournament.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,starfox.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,supermario.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,supermario3dworld.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,supermariobros.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,supermariogalaxy.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,supermariorun.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,superpapermario.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,supersmashbros.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,supersmashbros.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,thelegendarystarfy.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,thewonderful101.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wariolandshakeit.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wariowarediy.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wii-u.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiifit.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiifitu.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiipartyu.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiisports.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiisportsresort.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiiugamepad.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wiivc.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,xenoblade.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,yoshisnewisland.com,🎮 游戏平台
+  - IP-CIDR,35.192.0.0/12,🎮 游戏平台,no-resolve
+  - DOMAIN-SUFFIX,battle.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzard.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,battlenet.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,battlenet.com.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzard.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzard.nefficient.co.kr,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzardgames.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzardgearstore.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,blizzcon-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blz-contentstack.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,blz.nosdn.127.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blzmedia-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blznav.akamaized.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,blzstatic.cn,🎮 游戏平台
+  - DOMAIN-SUFFIX,bnet.163.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,bnetcmsus-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,bnetproduct-a.akamaihd.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,bnetshopus.akamaized.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,cdp.cloud.unity3d.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,di.res.netease.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,diablo3.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,diablo3.nosdn.127.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,diabloimmortal.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,firesidegatherings.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,hearthstone.nosdn.127.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,heroes.nos.netease.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,heroesofthestorm.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,overwatch.nosdn.127.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playhearthstone.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playoverwatch.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playwarcraft3.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sc2.nosdn.127.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,starcraft.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,starcraft2.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,worldofwarcraft.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,wow.nosdn.127.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,wowchina.com,🎮 游戏平台
+  - IP-CIDR,182.162.135.1/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,210.242.235.6/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,54.94.196.47/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,182.162.132.1/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,185.60.112.157/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,185.60.112.158/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,24.105.30.129/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,103.4.114.233/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,182.162.116.1/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,202.9.67.59/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,203.69.111.4/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,24.105.62.129/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,54.207.104.145/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,185.60.114.159/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,203.66.81.98/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,211.234.110.1/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,54.207.107.12/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,202.9.67.254/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,222.231.22.1/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,103.4.115.248/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,137.221.105.2/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,210.71.148.11/32,🎮 游戏平台,no-resolve
+  - IP-CIDR,211.115.104.1/32,🎮 游戏平台,no-resolve
+  - DOMAIN-SUFFIX,ggpht.cn,📹 YouTube
+  - DOMAIN-SUFFIX,ggpht.com,📹 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+  - DOMAIN-SUFFIX,gvt1.com,📹 YouTube
+  - DOMAIN-SUFFIX,gvt2.com,📹 YouTube
+  - DOMAIN-SUFFIX,video.google.com,📹 YouTube
+  - DOMAIN-SUFFIX,wide-youtube.l.google.com,📹 YouTube
+  - DOMAIN-SUFFIX,withyoutube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube-ui.l.google.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ae,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.al,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.am,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.at,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.az,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ba,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.be,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.bg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.bh,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.bo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.by,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ca,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cat,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ch,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cl,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ae,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.at,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.cr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.hu,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.id,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.il,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.jp,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ke,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.kr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ma,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.nz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.th,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.tz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ug,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.uk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.ve,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.za,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.co.zw,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ar,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.au,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.az,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.bd,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.bh,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.bo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.br,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.by,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.co,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.do,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ec,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ee,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.eg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.es,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.gh,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.gr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.gt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.hk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.hn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.hr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.jm,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.jo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.kw,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.lb,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.lv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ly,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.mk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.mt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.mx,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.my,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ng,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ni,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.om,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pe,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ph,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.pt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.py,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.qa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ro,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.sa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.sg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.sv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.tn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.tr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.tw,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ua,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.uy,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com.ve,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.cz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.de,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.dk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ee,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.es,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.fi,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.fr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ge,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.googleapis.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.gr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.gt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.hk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.hr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.hu,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ie,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.iq,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.is,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.it,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.jo,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.jp,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.kr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.kz,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.la,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lu,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.lv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ly,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ma,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.md,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.me,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.mk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.mn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.mx,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.my,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ng,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ni,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.nl,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.no,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pe,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ph,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pl,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pr,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.pt,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.qa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ro,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.rs,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ru,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sa,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.se,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sg,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.si,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sk,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.soy,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.sv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.tn,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.tv,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ua,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.ug,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.uy,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.vn,📹 YouTube
+  - DOMAIN-SUFFIX,youtubeeducation.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubefanfest.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubegaming.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.co.id,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.co.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.com.br,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.id,📹 YouTube
+  - DOMAIN-SUFFIX,youtubego.in,📹 YouTube
+  - DOMAIN-SUFFIX,youtubei.googleapis.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubekids.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubemobilesupport.com,📹 YouTube
+  - DOMAIN-SUFFIX,yt.be,📹 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+  - DOMAIN-KEYWORD,youtube,📹 YouTube
+  - IP-CIDR,172.110.32.0/21,📹 YouTube,no-resolve
+  - IP-CIDR,216.73.80.0/20,📹 YouTube,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,📹 YouTube,no-resolve
+  - PROCESS-NAME,com.google.android.youtube,📹 YouTube
+  - PROCESS-NAME,com.google.android.youtube.tv,📹 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
+  - DOMAIN-SUFFIX,withyoutube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtu.be,📹 YouTube
+  - DOMAIN-SUFFIX,youtube.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubeeducation.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubegaming.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtubekids.com,📹 YouTube
+  - DOMAIN-SUFFIX,youtube-nocookie.com,📹 YouTube
+  - DOMAIN-SUFFIX,yt.be,📹 YouTube
+  - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
+  - DOMAIN,youtubei.googleapis.com,📹 YouTube
+  - DOMAIN,yt3.ggpht.com,📹 YouTube
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🎥 Netflix
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 Netflix
+  - DOMAIN-KEYWORD,netflixdnstest,🎥 Netflix
+  - DOMAIN,netflix.com.edgesuite.net,🎥 Netflix
+  - DOMAIN-SUFFIX,fast.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflix.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflix.net,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 Netflix
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 Netflix
+  - DOMAIN-SUFFIX,nflxext.com,🎥 Netflix
+  - DOMAIN-SUFFIX,nflximg.com,🎥 Netflix
+  - DOMAIN-SUFFIX,nflximg.net,🎥 Netflix
+  - DOMAIN-SUFFIX,nflxso.net,🎥 Netflix
+  - DOMAIN-SUFFIX,nflxvideo.net,🎥 Netflix
+  - IP-CIDR,8.41.4.0/24,🎥 Netflix,no-resolve
+  - IP-CIDR,23.246.0.0/18,🎥 Netflix,no-resolve
+  - IP-CIDR,37.77.184.0/21,🎥 Netflix,no-resolve
+  - IP-CIDR,38.72.126.0/24,🎥 Netflix,no-resolve
+  - IP-CIDR,45.57.0.0/17,🎥 Netflix,no-resolve
+  - IP-CIDR,64.120.128.0/17,🎥 Netflix,no-resolve
+  - IP-CIDR,66.197.128.0/17,🎥 Netflix,no-resolve
+  - IP-CIDR,69.53.224.0/19,🎥 Netflix,no-resolve
+  - IP-CIDR,103.87.204.0/22,🎥 Netflix,no-resolve
+  - IP-CIDR,108.175.32.0/20,🎥 Netflix,no-resolve
+  - IP-CIDR,185.2.220.0/22,🎥 Netflix,no-resolve
+  - IP-CIDR,185.9.188.0/22,🎥 Netflix,no-resolve
+  - IP-CIDR,192.173.64.0/18,🎥 Netflix,no-resolve
+  - IP-CIDR,198.38.96.0/19,🎥 Netflix,no-resolve
+  - IP-CIDR,198.45.48.0/20,🎥 Netflix,no-resolve
+  - IP-CIDR,203.75.84.0/24,🎥 Netflix,no-resolve
+  - IP-CIDR,207.45.72.0/22,🎥 Netflix,no-resolve
+  - IP-CIDR,208.75.76.0/22,🎥 Netflix,no-resolve
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com,🎶 TikTok
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com,🎶 TikTok
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎶 TikTok
+  - DOMAIN-SUFFIX,bytedapm.com,🎶 TikTok
+  - DOMAIN-SUFFIX,bytegecko-i18n.com,🎶 TikTok
+  - DOMAIN-SUFFIX,bytegecko.com,🎶 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ibyteimg.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ipstatp.com,🎶 TikTok
+  - DOMAIN-SUFFIX,isnssdk.com,🎶 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,musical.ly,🎶 TikTok
+  - DOMAIN-SUFFIX,sgpstatp.com,🎶 TikTok
+  - DOMAIN-SUFFIX,snssdk.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tik-tokapi.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktok.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn-us.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokd.net,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokd.org,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎶 TikTok
+  - DOMAIN-KEYWORD,musical.ly,🎶 TikTok
+  - DOMAIN-KEYWORD,tiktok,🎶 TikTok
+  - PROCESS-NAME,com.zhiliaoapp.musically,🎶 TikTok
+  - DOMAIN-KEYWORD,tiktokcdn,🎶 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ipstatp.com,🎶 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,musical.ly,🎶 TikTok
+  - DOMAIN-SUFFIX,tik-tokapi.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktok.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎶 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ipstatp.com,🎶 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,musical.ly,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktok.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tik-tokapi.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎶 TikTok
+  - DOMAIN-KEYWORD,tiktokcdn-,🎶 TikTok
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com,🎶 TikTok
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com,🎶 TikTok
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net,🎶 TikTok
+  - DOMAIN-SUFFIX,bytedapm.com,🎶 TikTok
+  - DOMAIN-SUFFIX,bytegecko-i18n.com,🎶 TikTok
+  - DOMAIN-SUFFIX,bytegecko.com,🎶 TikTok
+  - DOMAIN-SUFFIX,byteoversea.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ibyteimg.com,🎶 TikTok
+  - DOMAIN-SUFFIX,ipstatp.com,🎶 TikTok
+  - DOMAIN-SUFFIX,isnssdk.com,🎶 TikTok
+  - DOMAIN-SUFFIX,muscdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,musical.ly,🎶 TikTok
+  - DOMAIN-SUFFIX,sgpstatp.com,🎶 TikTok
+  - DOMAIN-SUFFIX,snssdk.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tik-tokapi.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktok.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn-us.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokd.net,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokd.org,🎶 TikTok
+  - DOMAIN-SUFFIX,tiktokv.com,🎶 TikTok
+  - DOMAIN-KEYWORD,musical.ly,🎶 TikTok
+  - DOMAIN-KEYWORD,tiktok,🎶 TikTok
+  - PROCESS-NAME,com.zhiliaoapp.musically,🎶 TikTok
+  - DOMAIN,apiintl.biliapi.net,🌏 国内媒体
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
+  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
+  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
+  - DOMAIN-SUFFIX,bigfun.cn,🌏 国内媒体
+  - DOMAIN-SUFFIX,bigfunapp.cn,🌏 国内媒体
+  - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
+  - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
+  - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
+  - DOMAIN-SUFFIX,bilivideo.cn,🌏 国内媒体
+  - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
+  - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
+  - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
+  - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
+  - DOMAIN,intl-subscription.iqiyi.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,inter.iqiyi.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,🌏 国内媒体
+  - DOMAIN-SUFFIX,intl.iqiyi.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,iq.com,🌏 国内媒体
+  - IP-CIDR,23.40.241.251/32,🌏 国内媒体,no-resolve
+  - IP-CIDR,23.40.242.10/32,🌏 国内媒体,no-resolve
+  - IP-CIDR,103.44.56.0/22,🌏 国内媒体,no-resolve
+  - IP-CIDR,118.26.32.0/23,🌏 国内媒体,no-resolve
+  - IP-CIDR,118.26.120.0/24,🌏 国内媒体,no-resolve
+  - IP-CIDR,223.119.62.225/28,🌏 国内媒体,no-resolve
+  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
+  - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
+  - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
+  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
+  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
+  - DOMAIN,atv-ps.amazon.com,🌍 国外媒体
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🌍 国外媒体
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d1xfray82862hr.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d3196yreox78o9.cloudfront.net,🌍 国外媒体
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🌍 国外媒体
+  - DOMAIN,ktpx.amazon.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,aboutamazon.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazontours.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
+  - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
+  - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
+  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
+  - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
+  - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
+  - DOMAIN,aod-hls-uk-live.akamaized.net,🌍 国外媒体
+  - DOMAIN,vod-dash-uk-live.akamaized.net,🌍 国外媒体
+  - DOMAIN,vod-thumb-uk-live.akamaized.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbc.co,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbc.co.uk,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbc.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbc.net.uk,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
+  - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
+  - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
+  - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
+  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
+  - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
+  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,bamgrid.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,braze.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cdn.optimizely.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cws.conviva.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,d9.flashtalking.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,disney-plus.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,disney.demdex.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,disney.my.sentry.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,disneystreaming.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
+  - DOMAIN,content.jwplatform.com,🌍 国外媒体
+  - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
+  - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
+  - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
+  - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
+  - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
+  - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
+  - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
+  - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
+  - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
+  - DOMAIN,players.brightcove.net,🌍 国外媒体
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
+  - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hulu.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,huluad.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,huluim.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,hulustream.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,happyon.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,hjholdings.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,hulu.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
+  - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
+  - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,japonx,🌍 国外媒体
+  - DOMAIN-KEYWORD,japronx,🌍 国外媒体
+  - DOMAIN-SUFFIX,japonx.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,japonx.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,japonx.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,japonx.vip,🌍 国外媒体
+  - DOMAIN-SUFFIX,japronx.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,japronx.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,japronx.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,japronx.vip,🌍 国外媒体
+  - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
+  - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
+  - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
+  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
+  - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
+  - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
+  - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
+  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
+  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
+  - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
+  - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,nflximg.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,nflximg.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,nflxso.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
+  - IP-CIDR,8.41.4.0/24,🌍 国外媒体,no-resolve
+  - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
+  - IP-CIDR,37.77.184.0/21,🌍 国外媒体,no-resolve
+  - IP-CIDR,38.72.126.0/24,🌍 国外媒体,no-resolve
+  - IP-CIDR,45.57.0.0/17,🌍 国外媒体,no-resolve
+  - IP-CIDR,64.120.128.0/17,🌍 国外媒体,no-resolve
+  - IP-CIDR,66.197.128.0/17,🌍 国外媒体,no-resolve
+  - IP-CIDR,69.53.224.0/19,🌍 国外媒体,no-resolve
+  - IP-CIDR,103.87.204.0/22,🌍 国外媒体,no-resolve
+  - IP-CIDR,108.175.32.0/20,🌍 国外媒体,no-resolve
+  - IP-CIDR,185.2.220.0/22,🌍 国外媒体,no-resolve
+  - IP-CIDR,185.9.188.0/22,🌍 国外媒体,no-resolve
+  - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
+  - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
+  - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
+  - IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
+  - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
+  - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
+  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
+  - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
+  - DOMAIN-KEYWORD,nivod,🌍 国外媒体
+  - DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
+  - DOMAIN-KEYWORD,olevod,🌍 国外媒体
+  - DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,openai,🌍 国外媒体
+  - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
+  - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
+  - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
+  - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
+  - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
+  - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
+  - DOMAIN-SUFFIX,spoti.fi,🌍 国外媒体
+  - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
+  - DOMAIN,hamifans.emome.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
+  - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
+  - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,muscdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,musical.ly,🌍 国外媒体
+  - DOMAIN-SUFFIX,tik-tokapi.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,ttvnw,🌍 国外媒体
+  - DOMAIN-SUFFIX,ext-twitch.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
+  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+  - PROCESS-NAME,com.viu.pad,🌍 国外媒体
+  - PROCESS-NAME,com.viu.phone,🌍 国外媒体
+  - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
+  - DOMAIN,api.viu.now.com,🌍 国外媒体
+  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
+  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
+  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
+  - DOMAIN-KEYWORD,youtube,🌍 国外媒体
+  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
+  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,gvt2.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,withyoutube.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtubeeducation.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtubegaming.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
+  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+  - DOMAIN,music.youtube.com,🌍 国外媒体
+  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
+  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaplay.store,🎯 全球直连
+  - DOMAIN-SUFFIX,hrtsea.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
+  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
+  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+  - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+  - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
+  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cn,🎯 全球直连
+  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
+  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
+  - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+  - DOMAIN-KEYWORD,360buy,🎯 全球直连
+  - DOMAIN-KEYWORD,alicdn,🎯 全球直连
+  - DOMAIN-KEYWORD,alimama,🎯 全球直连
+  - DOMAIN-KEYWORD,alipay,🎯 全球直连
+  - DOMAIN-KEYWORD,appzapp,🎯 全球直连
+  - DOMAIN-KEYWORD,baidupcs,🎯 全球直连
+  - DOMAIN-KEYWORD,bilibili,🎯 全球直连
+  - DOMAIN-KEYWORD,ccgslb,🎯 全球直连
+  - DOMAIN-KEYWORD,chinacache,🎯 全球直连
+  - DOMAIN-KEYWORD,duobao,🎯 全球直连
+  - DOMAIN-KEYWORD,jdpay,🎯 全球直连
+  - DOMAIN-KEYWORD,moke,🎯 全球直连
+  - DOMAIN-KEYWORD,qhimg,🎯 全球直连
+  - DOMAIN-KEYWORD,vpimg,🎯 全球直连
+  - DOMAIN-KEYWORD,xiami,🎯 全球直连
+  - DOMAIN-KEYWORD,xiaomi,🎯 全球直连
+  - DOMAIN-SUFFIX,360.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360kuai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dhrest.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qhstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qhupdate.com,🎯 全球直连
+  - DOMAIN-SUFFIX,so.com,🎯 全球直连
+  - DOMAIN-SUFFIX,4399.com,🎯 全球直连
+  - DOMAIN-SUFFIX,4399pk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,5054399.com,🎯 全球直连
+  - DOMAIN-SUFFIX,img4399.com,🎯 全球直连
+  - DOMAIN-SUFFIX,58.com,🎯 全球直连
+  - DOMAIN-SUFFIX,1688.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
+  - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alipay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alipayobjects.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alisoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+  - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,soku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
+  - DOMAIN-SUFFIX,ucweb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidustatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bcebos.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdurl.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hao123.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hao123img.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jomodns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
+  - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,byted-static.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bytednsdoc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytegoofy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytescm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
+  - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huoshanzhibo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ibytedapm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaohao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaohao.net,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
+  - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
+  - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
+  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
+  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
+  - DOMAIN-SUFFIX,71.am,🎯 全球直连
+  - DOMAIN-SUFFIX,71edge.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ppsimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiyi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiyipic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qy.net,🎯 全球直连
+  - DOMAIN-SUFFIX,360buy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360buyimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jcloudcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.hk,🎯 全球直连
+  - DOMAIN-SUFFIX,jdcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paipai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iciba.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksosoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kuaishou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yximgs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,le.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lecloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvlive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvstore.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hunantv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomicp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,126.com,🎯 全球直连
+  - DOMAIN-SUFFIX,126.net,🎯 全球直连
+  - DOMAIN-SUFFIX,127.net,🎯 全球直连
+  - DOMAIN-SUFFIX,163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,163yun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lofter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,netease.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,youdao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pplive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pptv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pinduoduo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leju.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miaopai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.com.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaapp.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaimg.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weibo.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weibocdn.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,go2map.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohucs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohuno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohurdc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,v-56.com,🎯 全球直连
+  - DOMAIN-SUFFIX,playstation.com,🎯 全球直连
+  - DOMAIN-SUFFIX,playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+  - DOMAIN,wmsjsteam.com,🎯 全球直连
+  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qq.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qqurl.com,🎯 全球直连
+  - DOMAIN-SUFFIX,smtcdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,soso.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tencentmind.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weixin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weiyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,appsimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,appvipshop.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vipstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,00cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,88cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kanimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kankan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,p2cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sandai.net,🎯 全球直连
+  - DOMAIN-SUFFIX,thundercdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xunlei.com,🎯 全球直连
+  - DOMAIN-SUFFIX,got001.com,🎯 全球直连
+  - DOMAIN-SUFFIX,p4pfile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,rrys.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,rrys2020.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yyets.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直连
+  - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz001.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz002.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz003.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz004.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
+  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
+  - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
+  - IP-CIDR,221.226.128.146/32,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
+  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
+  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
+  - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
+  - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
+  - DOMAIN-SUFFIX,115.com,🎯 全球直连
+  - DOMAIN-SUFFIX,12306.com,🎯 全球直连
+  - DOMAIN-SUFFIX,17173.com,🎯 全球直连
+  - DOMAIN-SUFFIX,178.com,🎯 全球直连
+  - DOMAIN-SUFFIX,17k.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360doc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,36kr.com,🎯 全球直连
+  - DOMAIN-SUFFIX,3dmgame.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51cto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51job.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51jobcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,56.com,🎯 全球直连
+  - DOMAIN-SUFFIX,8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,abercrombie.com,🎯 全球直连
+  - DOMAIN-SUFFIX,acfun.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
+  - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
+  - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+  - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
+  - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+  - DOMAIN-SUFFIX,che168.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinacache.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaz.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
+  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
+  - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coolapkmarket.com,🎯 全球直连
+  - DOMAIN-SUFFIX,csdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dangdang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dilidili.wang,🎯 全球直连
+  - DOMAIN-SUFFIX,douban.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,duowan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dxycdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dytt8.net,🎯 全球直连
+  - DOMAIN-SUFFIX,easou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
+  - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
+  - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,feng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fir.im,🎯 全球直连
+  - DOMAIN-SUFFIX,frdic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fresh-ideas.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,ganji.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ganjistatic1.com,🎯 全球直连
+  - DOMAIN-SUFFIX,geetest.com,🎯 全球直连
+  - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ghpym.com,🎯 全球直连
+  - DOMAIN-SUFFIX,godic.net,🎯 全球直连
+  - DOMAIN-SUFFIX,guazi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gwdang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gzlzfm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,haibian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,haosou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hollisterco.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huajiao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hupu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ifeng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ifengimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,images-amazon.com,🎯 全球直连
+  - DOMAIN-SUFFIX,infzm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ipip.net,🎯 全球直连
+  - DOMAIN-SUFFIX,it168.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ixdzs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshuapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jiathis.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jmstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jumei.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
+  - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
+  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
+  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
+  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
+  - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meilishuo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
+  - DOMAIN-SUFFIX,meizu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,migucloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miguvideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mogu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mogucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mogujie.com,🎯 全球直连
+  - DOMAIN-SUFFIX,moji.com,🎯 全球直连
+  - DOMAIN-SUFFIX,moke.com,🎯 全球直连
+  - DOMAIN-SUFFIX,msstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myunlu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
+  - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
+  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
+  - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qcloudcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qdmm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qianqian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qihucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qin.io,🎯 全球直连
+  - DOMAIN-SUFFIX,qiniu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiniucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiniudn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiushibaike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,realme.com,🎯 全球直连
+  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,segmentfault.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
+  - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
+  - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
+  - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
+  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+  - DOMAIN-SUFFIX,synology.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
+  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianqistatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianyaui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tietuku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tiexue.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tmiaoo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,trip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ttmeiju.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tudou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tuniu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tuniucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,umengcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
+  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+  - DOMAIN-SUFFIX,vivo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,weidian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weiphone.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weiphone.net,🎯 全球直连
+  - DOMAIN-SUFFIX,womai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wscdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xdrig.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xhscdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaohongshu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaojukeji.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xip.io,🎯 全球直连
+  - DOMAIN-SUFFIX,xitek.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiumi.us,🎯 全球直连
+  - DOMAIN-SUFFIX,xslb.net,🎯 全球直连
+  - DOMAIN-SUFFIX,xueqiu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yach.me,🎯 全球直连
+  - DOMAIN-SUFFIX,yeepay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yhd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yihaodianimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yinxiang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yinyuetai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yixia.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ys168.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yuewen.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yystatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zealer.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,zhanqi.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+  - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,41.222.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,41.223.119.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,43.242.168.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.112.212.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.74.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.76.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.80.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,47.235.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.236.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.240.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.244.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.250.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.252.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.0.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.240.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.248.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,72.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,103.38.56.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.52.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.206.40.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,110.76.21.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,110.76.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,112.125.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.42.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.95.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,140.205.1.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,147.139.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,149.129.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,155.102.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,161.117.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,170.33.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.96.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,19.28.0.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,45.40.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,62.234.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,94.191.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.7.28.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.116.50.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.231.60.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,109.244.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.136.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.139.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.140.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,115.159.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,120.88.56.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,121.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.28.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.204.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.211.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,132.232.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,134.175.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,148.70.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,162.14.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,162.62.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,170.106.130.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,182.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,188.131.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,203.195.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,210.4.138.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,211.152.128.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,211.152.132.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,211.152.148.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,212.64.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,212.129.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,45.113.192.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,63.217.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,63.243.252.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,103.235.44.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,104.193.88.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,106.12.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,114.28.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.63.192.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,180.76.0.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,180.76.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,182.61.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,185.10.104.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,202.46.48.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,203.90.238.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,43.254.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.249.212.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,49.4.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,78.101.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,78.101.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,81.52.161.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,85.97.220.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.31.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.69.140.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.218.216.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,114.115.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,114.116.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,116.63.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,116.66.184.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.96.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.136.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.141.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.142.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.243.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.244.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.251.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,119.8.0.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,121.36.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,121.36.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,121.37.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,122.112.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.64.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.100.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.104.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.240.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.248.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.128.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.160.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.164.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.168.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.176.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.192.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.64.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.79.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.80.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.96.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.112.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.125.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.192.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.223.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.224.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,168.195.92.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,185.176.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,197.199.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,197.210.163.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.1.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.2.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.4.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.8.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,200.32.52.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,200.32.54.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,200.32.57.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.4.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.8.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.11.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.13.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.20.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.22.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.24.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.26.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.29.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.33.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.38.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.40.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.43.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.48.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.50.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,45.253.132.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.253.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.254.48.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,59.111.0.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,59.111.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.120.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.128.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.12.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.18.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.24.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.28.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.38.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.40.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.44.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.48.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.126.92.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.196.64.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,106.2.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,106.2.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,114.113.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,114.113.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,115.236.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,115.238.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+  - PROCESS-NAME,aria2c.exe,🎯 全球直连
+  - PROCESS-NAME,fdm.exe,🎯 全球直连
+  - PROCESS-NAME,Folx.exe,🎯 全球直连
+  - PROCESS-NAME,NetTransport.exe,🎯 全球直连
+  - PROCESS-NAME,Thunder.exe,🎯 全球直连
+  - PROCESS-NAME,Transmission.exe,🎯 全球直连
+  - PROCESS-NAME,uTorrent.exe,🎯 全球直连
+  - PROCESS-NAME,WebTorrent.exe,🎯 全球直连
+  - PROCESS-NAME,WebTorrent Helper.exe,🎯 全球直连
+  - PROCESS-NAME,qbittorrent.exe,🎯 全球直连
+  - DOMAIN-SUFFIX,smtp,🎯 全球直连
+  - DOMAIN-KEYWORD,aria2,🎯 全球直连
+  - PROCESS-NAME,DownloadService.exe,🎯 全球直连
+  - PROCESS-NAME,Weiyun.exe,🎯 全球直连
+  - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
