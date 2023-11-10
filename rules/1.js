@@ -2,11 +2,14 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/(chat/limit|vip/meet/userInfo|loveBell/queryMatchSpeedupConf) url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/1.js
+^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/(chat/limitInfo|vip/meet/userInfo|loveBell/queryMatchSpeedupConf) url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/1.js
 
 [mitm] 
 
 hostname = (.*|api-chat.soulapp.cn)
+$done({
+  body: $response.body.replace(/{"code":10001,"message":"success","data":{.*},"success":true}/s, '{"code":10001,"message":"success","data":{"limit":false},"success":true}')
+});
 // 获得响应体
 var body = $response.body;
 
