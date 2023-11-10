@@ -7,11 +7,24 @@
 [mitm] 
 
 hostname = (.*|api-chat.soulapp.cn)
+// 获得响应体
 var body = $response.body;
-var url = $request.url;
 
-if (url.includes('/chat')) {
-    body = body.replace(/"limit":true/g, '"limit":false');
-}
+// 修改 JSON 数据
+var modifiedData = {
+    "code": 10001,
+    "message": "success",
+    "data": {
+        "limit": false
+    },
+    "success": true
+};
 
+// 将修改后的 JSON 转换为字符串
+var modifiedBody = JSON.stringify(modifiedData);
+
+// 替换原始响应体中的数据
+body = body.replace(/{"code":10001,"message":"success","data":{.*},"success":true}/s, modifiedBody);
+
+// 输出修改后的响应体
 $done({ body });
