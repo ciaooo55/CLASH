@@ -2,7 +2,8 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/chat\/limi url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soulqx
+^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/chat\/limi url script-response-body
+https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soulqx
 
 [mitm] 
 
