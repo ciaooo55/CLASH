@@ -7,27 +7,17 @@
 [mitm] 
 
 hostname = (.*|api-chat.soulapp.cn)
+// ==Quantumult X==
+// @Name         Modify Response Script
+// @Version      1.0
+// @Description  Modify the response body
+// @Author       OpenAI with modifications by User
+// @Match        *://api-chat.soulapp.cn/chat/limitInfo
+// @Match        *://api-chat.soulapp.cn/vip/meet/userInfo
+// @Match        *://api-chat.soulapp.cn/loveBell/queryMatchSpeedupConf
+// ==/Quantumult X==
+
 $done({
-  body: $response.body.replace(/{"code":10001,"message":"success","data":{.*},"success":true}/s, '{"code":10001,"message":"success","data":{"limit":false},"success":true}')
+  body: $response.body.replace(/"limit":true/g, '"limit":false')
 });
-// 获得响应体
-var body = $response.body;
 
-// 修改 JSON 数据
-var modifiedData = {
-    "code": 10001,
-    "message": "success",
-    "data": {
-        "limit": false
-    },
-    "success": true
-};
-
-// 将修改后的 JSON 转换为字符串
-var modifiedBody = JSON.stringify(modifiedData);
-
-// 替换原始响应体中的数据
-body = body.replace(/{"code":10001,"message":"success","data":{.*},"success":true}/s, modifiedBody);
-
-// 输出修改后的响应体
-$done({ body });
