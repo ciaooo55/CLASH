@@ -1,9 +1,8 @@
-
-*******************************
+/*******************************
 
 [rewrite_local]
 
-^http[s]?:\/\/(api-chat.soulapp.cn    |.*)\/chat\/limit url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Soul.js
+^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/chat\/limi url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soulqx
 
 [mitm] 
 
@@ -15,7 +14,7 @@ hostname = (.*|api-chat.soulapp.cn)
 var body = $response['body'];
 var url = $request['url'];
 
-if (url.indexOf('/chat/limit') !== -1) {
+if (url.indexOf('/chat/limi') !== -1) {
     body = body.replace(/"limit":true/g, '"limit":false');
 }
 
