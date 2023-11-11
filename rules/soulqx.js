@@ -13,8 +13,8 @@ hostname = (.*|api-chat.soulapp.cn)
 
 *******************************/
 
-var body = $response['...']; // 响应体
-var url = $request['...'];   // 请求的 URL
+var body = $response['api-chat.soulapp.cn']; // 响应体
+var url = $request['api-chat.soulapp.cn'];   // 请求的 URL
 
 // 根据 URL 进行条件判断和响应体的修改
 if (url.includes('limit')) {
