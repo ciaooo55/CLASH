@@ -1,8 +1,8 @@
 [rewrite_local]
 # soul Rewrite Rules
-^https://api-chat\.soulapp\.cn/ url script-response-body soul.js
-^https://api-pay\.soulapp\.cn/ url script-response-body soul.js
-^https://api-a\.soulapp\.cn/ url script-response-body soul.js
+^https://api-chat\.soulapp\.cn/ url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soul123.js
+^https://api-pay\.soulapp\.cn/ url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soul123.js
+^https://api-a\.soulapp\.cn/ url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soul123.js
 
 [mitm]
 hostname = api-chat.soulapp.cn, api-pay.soulapp.cn, api-a.soulapp.cn
