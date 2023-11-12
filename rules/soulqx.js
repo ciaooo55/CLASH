@@ -1,40 +1,29 @@
-/*******************************
-3333
-
-*******************************
-
 [rewrite_local]
+# soul Rewrite Rules
+^https://api-chat\.soulapp\.cn/ url script-response-body soul.js
+^https://api-pay\.soulapp\.cn/ url script-response-body soul.js
+^https://api-a\.soulapp\.cn/ url script-response-body soul.js
 
-^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/(chat/limitInfo|vip/meet/userInfo|loveBell/queryMatchSpeedupConf) url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soulqx.js
-
-[mitm] 
-
-hostname = (.*|api-chat.soulapp.cn)
+[mitm]
+hostname = api-chat.soulapp.cn, api-pay.soulapp.cn, api-a.soulapp.cn
 
 *******************************/
 
-var body = $response['api-chat.soulapp.cn']; // 响应体
-var url = $request['api-chat.soulapp.cn'];   // 请求的 URL
+let body = $response.body;
 
-// 根据 URL 进行条件判断和响应体的修改
-if (url.includes('limit')) {
-    body = body.replace(/"limit":true/g, '"limit":false');
-}
+// 修改 "limit":true 为 "limit":false
+body = body.replace(/"limit":true/g, '"limit":false');
 
-if (url.includes('soul')) {
-    // 进行一系列的字符串替换操作
-    body = body.replace(/"superVIP":false/g, '"superVIP":true')
-               .replace(/"validTime":null/g, '"validTime":4567891456000')
-               .replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
-}
+// 修改 "superVIP":false 为 "superVIP":true
+body = body.replace(/"superVIP":false/g, '"superVIP":true');
 
-if (url.includes('soul')) {
-    // 进行一系列的字符串替换操作
-    body = body.replace(/"currentSpeed":\d+/g, '"currentSpeed":0')
-               .replace(/"speedupTime":\d+/g, '"speedupTime":0')
-               .replace(/"speedupCount":1/g, '"speedupCount":0')
-               .replace(/"speedup":false/g, '"speedup":true');
-}
+// 修改 "validTime":null 为 "validTime":4567891456000
+body = body.replace(/"validTime":null/g, '"validTime":4567891456000');
 
-// 返回修改后的响应体
-$done({ 'body': body });
+// 修改 "hasFlyPackage":false 为 "hasFlyPackage":true
+body = body.replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
+
+// 修改 "speedup":false 为 "speedup":true
+body = body.replace(/"speedup":false/g, '"speedup":true');
+
+$done({ body });
