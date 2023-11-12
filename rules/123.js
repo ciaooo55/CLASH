@@ -6,7 +6,10 @@ hostname = api-pay.soulapp.cn, api-user.soulapp.cn, api-chat.soulapp.cn, 8.210.3
 
 *******************************/
 var urlq = $request.url;
-var objc = JSON.parse($response.body);
+var body = $response.body;
+
+// 判断 $response.body 是否是字符串
+var objc = typeof body === 'string' ? JSON.parse(body) : body;
 
 // 修改 "limit":true 为 "limit":false
 objc.body = objc.body.replace(/"limit":true/g, '"limit":false');
@@ -24,6 +27,7 @@ objc.body = objc.body.replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
 objc.body = objc.body.replace(/"speedup":false/g, '"speedup":true');
 
 $done({ body: objc.body });
+
 
 
 
