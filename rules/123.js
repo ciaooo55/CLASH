@@ -8,25 +8,23 @@ hostname = api-pay.soulapp.cn, api-user.soulapp.cn, api-chat.soulapp.cn, 8.210.3
 var urlq = $request.url;
 var body = $response.body;
 
-// 判断 $response.body 是否是字符串
-var objc = typeof body === 'string' ? JSON.parse(body) : body;
-
 // 修改 "limit":true 为 "limit":false
-objc.body = objc.body.replace(/"limit":true/g, '"limit":false');
+body = body.replace(/"limit":true/g, '"limit":false');
 
 // 修改 "superVIP":false 为 "superVIP":true
-objc.body = objc.body.replace(/"superVIP":false/g, '"superVIP":true');
+body = body.replace(/"superVIP":false/g, '"superVIP":true');
 
 // 修改 "validTime":null 为 "validTime":4567891456000
-objc.body = objc.body.replace(/"validTime":null/g, '"validTime":4567891456000');
+body = body.replace(/"validTime":null/g, '"validTime":4567891456000');
 
 // 修改 "hasFlyPackage":false 为 "hasFlyPackage":true
-objc.body = objc.body.replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
+body = body.replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
 
 // 修改 "speedup":false 为 "speedup":true
-objc.body = objc.body.replace(/"speedup":false/g, '"speedup":true');
+body = body.replace(/"speedup":false/g, '"speedup":true');
 
-$done({ body: objc.body });
+$done({ body });
+
 
 
 
