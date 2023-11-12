@@ -7,20 +7,46 @@ hostname = api-pay.soulapp.cn, api-user.soulapp.cn, api-chat.soulapp.cn, 8.210.3
 
 *******************************/
 var body = $response.body;
+var urlq = $request.url;
+var objc = JSON.parse(body);
 
-// 修改 "limit":true 为 "limit":false
-body = body.replace(/"limit":true/g, '"limit":false');
+const hausd0rff = {"code": 10001, "message": "弹窗，请支持我们的工作", "jiajia": true};
 
-// 修改 "superVIP":false 为 "superVIP":true
-body = body.replace(/"superVIP":false/g, '"superVIP":true');
+if (urlq.indexOf("/profile/settings") != -1) {
+    objc["userVIP"]["superVIP"] = true;
+    objc["userVIP"]["hasMyMeet"] = true;
+    objc["userVIP"]["isCanSendVideo"] = true;
+    objc["userVIP"]["isCanSendVoice"] = true;
+    objc["userVIP"]["limit"] = false;
+    objc["userVIP"]["hasFlyPackage"] = false;
+    objc["userVIP"]["validTime"] = 999999;
+    objc["userVIP"]["superVIPDays"] = 999999;
+}
 
-// 修改 "validTime":null 为 "validTime":4567891456000
-body = body.replace(/"validTime":null/g, '"validTime":4567891456000');
+if (urlq.indexOf("/private/buy") != -1) {
+    objc["userVIP"]["superVIP"] = true;
+    objc["userVIP"]["hasMyMeet"] = true;
+    objc["userVIP"]["showSuperVIP"] = true;
+    objc["userVIP"]["limit"] = false;
+    objc["userVIP"]["validTime"] = 999999;
+    objc["userVIP"]["superVIPDays"] = 4092599349000;
+}
 
-// 修改 "hasFlyPackage":false 为 "hasFlyPackage":true
-body = body.replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
+if (urlq.indexOf("/chat/history/setting") != -1) {
+    objc["userVIP"] = 999999;
+}
 
-// 修改 "speedup":false 为 "speedup":true
-body = body.replace(/"speedup":false/g, '"speedup":true');
+if (urlq.indexOf("/settings/contact") != -1) {
+    objc = hausd0rff;
+}
 
-$done({ body });
+if (urlq.indexOf("/chat/limit") != -1) {
+    objc = {"code": 10001, "message": "弹窗，请支持我们的工作", "data": {"success": true, "code": 10001}, "success": true};
+}
+
+if (urlq.indexOf("/user/query") != -1) {
+    objc = hausd0rff;
+}
+
+$done({body: JSON.stringify(objc)});
+
