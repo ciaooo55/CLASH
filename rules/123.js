@@ -6,6 +6,7 @@ hostname = api-pay.soulapp.cn, api-user.soulapp.cn, api-chat.soulapp.cn, 8.210.3
 
 *******************************/
 var body = $response.body;
+
 var urlq = $request.url;
 var objc = JSON.parse(body);
 
