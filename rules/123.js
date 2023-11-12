@@ -13,27 +13,28 @@ if ($request.url.includes('/chat/limitInfo')) {
     body = body.replace(/"limit":true/g, '"limit":false');
 }
 
-if ($request.url.includes('some_other_endpoint')) {
+// 替换 other_endpoint
+if ($request.url.includes('/privilege/supervip/status') || 
+    $request.url.includes('/show/superVIP/detail') || 
+    $request.url.includes('/meet/invisible/saveByUserId') || 
+    $request.url.includes('/special/concern/setting') || 
+    $request.url.includes('/chat/history/setting') || 
+    $request.url.includes('/privilege/bubble/buy') || 
+    $request.url.includes('/soul-coin/total') || 
+    $request.url.includes('/user/queryInvisibleSetting')) {
     body = body
         .replace(/"superVIP":false/g, '"superVIP":true')
         .replace(/"validTime":null/g, '"validTime":4567891456000')
         .replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
 }
 
-if ($request.url.includes('yet_another_endpoint')) {
+// 替换 yet_another_endpoint
+if ($request.url.includes('/chat/limitInfo')) {
     body = body
         .replace(/"currentSpeed":\d+/g, '"currentSpeed":0')
         .replace(/"speedupTime":\d+/g, '"speedupTime":0')
         .replace(/"speedupCount":1/g, '"speedupCount":0')
         .replace(/"speedup":false/g, '"speedup":true');
 }
-
-
-
-body = body.replace(/"limit":true/g, '"limit":false');
-body = body.replace(/"superVIP":false/g, '"superVIP":true');
-body = body.replace(/"validTime":null/g, '"validTime":4567891456000');
-body = body.replace(/"hasFlyPackage":false/g, '"hasFlyPackage":true');
-body = body.replace(/"speedup":false/g, '"speedup":true');
 
 $done({ body });
