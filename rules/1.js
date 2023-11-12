@@ -7,9 +7,18 @@ hostname = api-pay.soulapp.cn, api-user.soulapp.cn, api-chat.soulapp.cn, 8.210.3
 *******************************/
 var body = $response.body;
 var urlq = $request.url;
-var objc = JSON.parse(body);
+var objc;
 
-console.log("Original Body:", body);  // 添加这一行
+try {
+    objc = JSON.parse(body);
+} catch (error) {
+    console.log("Error parsing JSON:", error);
+    console.log("Original Body:", body);
+    $done({ body });
+    return;
+}
+
+console.log("Original Body:", body);
 
 if ($request.url.includes('/chat/limitInfo')) {
     body = body.replace(/"limit":true/g, '"limit":false');
@@ -39,6 +48,6 @@ if ($request.url.includes('/chat/limitInfo')) {
         .replace(/"speedup":false/g, '"speedup":true');
 }
 
-console.log("Modified Body:", body);  // 添加这一行
+console.log("Modified Body:", body);
 
 $done({ body });
