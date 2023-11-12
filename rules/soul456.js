@@ -1,7 +1,7 @@
 [rewrite_local]
 # soul Rewrite Rules
 
-^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/(chat/limitInfo|vip/meet/userInfo|loveBell/queryMatchSpeedupConf) url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soul123.js
+^http[s]?:\/\/(api-chat.soulapp.cn|.*)\/(chat/limitInfo|vip/meet/userInfo|loveBell/queryMatchSpeedupConf) url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/soul456.js
 
 [mitm]
 hostname = api-chat.soulapp.cn, api-pay.soulapp.cn, api-a.soulapp.cn
