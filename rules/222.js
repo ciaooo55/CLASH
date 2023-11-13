@@ -1,7 +1,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/api.xgkjdytt.cn\/xly\/webcloud\/user\/login url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/1.js
+^http[s]?:\/\/api.xgkjdytt.cn\/xly\/webcloud\/user\/login url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/222.js
 
 [mitm] 
 
