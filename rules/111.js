@@ -15,7 +15,7 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^http[s]?:\/\/api.xgkjdytt.cn\/xly\/webcloud\/user\/login url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/222.js
+^http[s]?:\/\/api.xgkjdytt.cn\/xly\/webcloud\/user\/login url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/111.js
 
 [mitm] 
 
