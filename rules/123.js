@@ -16,12 +16,12 @@ hostname = api-chat.soulapp.cn, api-pay.soulapp.cn, api-a.soulapp.cn
 var objc = JSON.parse($response.body);
     objc = {
  "data": {
- "limit":false,
-  "superVIP":true,
-  "validTime":4567891456000,
-  "hasFlyPackage":true,
-  "speedup":true,
-  "shareToken": ""
+ "limit": false,
+  "superVIP": true,
+  "validTime": "4567891456000",
+  "hasFlyPackage": true,
+  "speedup": true,
+
  },
  "code": 0,
  "msg": "返回成功"
