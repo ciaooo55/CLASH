@@ -10,31 +10,32 @@
 hostname = api-pay.soulapp.cn, api-user.soulapp.cn, api-chat.soulapp.cn, 8.210.3.170, 47.96.7.91, 47.96.11.46, 47.96.20.45, 47.98.54.106, 47.98.137.249, 114.215.255.94, 118.31.7.235, 118.31.112.221, 120.55.55.115, 120.55.62.124, 121.196.197.147, 121.196.203.183
 
 *******************************/
-    
-var body = $response.body;
-var urlq = $request.url;
-var objc = JSON.parse(body);
+const url = $request.url;
+const body = $response.body;
 
-// 从 XML 中提取的 Rewrite 规则
-const rewriteRules = [
-    {"matchValue": "\"limit\":true", "newValue": "\"limit\":false"},
-    {"matchValue": "\"superVIP\":false", "newValue": "\"superVIP\":true"},
-    {"matchValue": "\"validTime\":null", "newValue": "\"validTime\":4567891456000"},
-    {"matchValue": "\"hasFlyPackage\":false", "newValue": "\"hasFlyPackage\":true"},
-    {"matchValue": "\"speedup\":false", "newValue": "\"speedup\":true"}
-];
+// 匹配规则
+const rule1 = /"limit":true/g;
+const rule2 = /"superVIP":false/g;
+const rule3 = /"validTime":null/g;
+const rule4 = /"hasFlyPackage":false/g;
+const rule5 = /"speedup":false/g;
 
-// 应用 Rewrite 规则
-rewriteRules.forEach(rule => {
-    if (rule.matchRequest && urlq.indexOf(rule.matchValue) !== -1) {
-        body = body.replace(new RegExp(rule.matchValue, "g"), rule.newValue);
-    } else if (rule.matchResponse) {
-        body = body.replace(new RegExp(rule.matchValue, "g"), rule.newValue);
-    }
-});
+// 替换规则
+const replacement1 = '"limit":false';
+const replacement2 = '"superVIP":true';
+const replacement3 = '"validTime":4567891456000';
+const replacement4 = '"hasFlyPackage":true';
+const replacement5 = '"speedup":true';
 
-$done({body: body});
+// 替换匹配的规则
+const newBody = body
+  .replace(rule1, replacement1)
+  .replace(rule2, replacement2)
+  .replace(rule3, replacement3)
+  .replace(rule4, replacement4)
+  .replace(rule5, replacement5);
 
+$done({ body: newBody });
 
 
 
