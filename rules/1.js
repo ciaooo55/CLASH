@@ -1,7 +1,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/api.xgkjdytt.cn\/xly\/webcloud\/user\/login url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xgkjdytt.js
+^http[s]?:\/\/api.xgkjdytt.cn\/xly\/webcloud\/user\/login url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/rules/1.js
 
 [mitm] 
 
