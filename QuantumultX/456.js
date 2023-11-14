@@ -5,7 +5,7 @@
 *******************************
 [rewrite_local]
 
-^https?://(api-chat|api-pay|api-a)\.soulapp\.cn url script-response-body https://raw.githubusercontent.com/ciaooo55/QuantumultX/main/rules/456.js
+^https?://(api-chat|api-pay|api-a)\.soulapp\.cn url script-response-body https://raw.githubusercontent.com/ciaooo55/CLASH/main/QuantumultX/456.js
 
 
 [mitm]
