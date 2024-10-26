@@ -1,0 +1,371 @@
+DOMAIN,e13252.dscg.akamaiedge.net
+DOMAIN,h-netflix.online-metrix.net
+DOMAIN,netflix.com.edgesuite.net
+DOMAIN-SUFFIX,cookielaw.org
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,flxvpn.net
+DOMAIN-SUFFIX,netflix.ca
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.com.au
+DOMAIN-SUFFIX,netflix.com.edgesuite.net
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,netflixdnstest0.com
+DOMAIN-SUFFIX,netflixdnstest1.com
+DOMAIN-SUFFIX,netflixdnstest10.com
+DOMAIN-SUFFIX,netflixdnstest2.com
+DOMAIN-SUFFIX,netflixdnstest3.com
+DOMAIN-SUFFIX,netflixdnstest4.com
+DOMAIN-SUFFIX,netflixdnstest5.com
+DOMAIN-SUFFIX,netflixdnstest6.com
+DOMAIN-SUFFIX,netflixdnstest7.com
+DOMAIN-SUFFIX,netflixdnstest8.com
+DOMAIN-SUFFIX,netflixdnstest9.com
+DOMAIN-SUFFIX,netflixinvestor.com
+DOMAIN-SUFFIX,netflixstudios.com
+DOMAIN-SUFFIX,netflixtechblog.com
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxsearch.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,onetrust.com
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,dualstack.apiproxy-
+DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-KEYWORD,netflixdnstest
+PROCESS-NAME,com.netflix.mediaclient
+DOMAIN-SUFFIX,20thcenturystudios.com.au,🐹 DisneyPlus
+DOMAIN-SUFFIX,20thcenturystudios.com.br,🐹 DisneyPlus
+DOMAIN-SUFFIX,20thcenturystudios.jp,🐹 DisneyPlus
+DOMAIN-SUFFIX,abc-studios.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,abc.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,abcnews.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,abcnews.edgesuite.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,adobedtm.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,adventuresbydisney.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,babble.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,babyzone.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,bam.nr-data.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,bamgrid.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,🐹 DisneyPlus
+DOMAIN-SUFFIX,braze.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,cdn.optimizely.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,conviva.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,d9.flashtalking.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,dilcdn.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney-asia.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney-discount.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney-plus.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney-studio.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney-studio.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.asia,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.be,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.bg,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.ca,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.ch,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.co.il,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.co.jp,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.co.kr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.co.th,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.co.uk,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.co.za,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.com.au,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.com.br,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.com.hk,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.com.tw,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.cz,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.de,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.demdex.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.dk,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.es,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.fi,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.fr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.gr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.hu,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.id,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.in,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.io,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.it,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.my,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.my.sentry.io,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.nl,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.no,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.ph,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.pl,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.pt,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.ro,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.ru,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.se,🐹 DisneyPlus
+DOMAIN-SUFFIX,disney.sg,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyadsales.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyarena.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyaulani.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneybaby.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneycareers.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneychannelonstage.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneychannelroadtrip.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneycruisebrasil.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyenconcert.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyiejobs.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyinflight.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyinternational.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyinternationalhd.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyjunior.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyjuniortreataday.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneylandparis.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneylatino.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.co.il,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.co.uk,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.co.za,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.de,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.es,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.fr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.gen.tr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.gr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.it,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmoments.pl,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymagicmomentsme.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyme.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymeetingsandevents.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymovieinsiders.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneymusicpromotion.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneynewseries.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneynow.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneypeoplesurveys.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyplus.bn5x.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyplus.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyprivacycenter.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyredirects.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneysrivieraresort.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneystore.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneystreaming.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneysubscription.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneytermsofuse.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneytickets.co.uk,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyturkiye.com.tr,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneytvajobs.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,disneyworld-go.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,dlp-media.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,dmed.technology,🐹 DisneyPlus
+DOMAIN-SUFFIX,dssott.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,dtci.co,🐹 DisneyPlus
+DOMAIN-SUFFIX,dtci.technology,🐹 DisneyPlus
+DOMAIN-SUFFIX,edgedatg.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,espn.co.uk,🐹 DisneyPlus
+DOMAIN-SUFFIX,espn.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,espn.hb.omtrdc.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,espn.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,espncdn.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,espnqa.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,go-disneyworldgo.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,go.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,hotstar-cdn.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,hotstar-labs.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,hotstar.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,hotstarext.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,hsprepack.akamaized.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,js-agent.newrelic.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvel.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvel10thanniversary.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marveldimensionofheroes.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvelparty.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvelpinball.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvelsdoubleagent.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvelspotlightplays.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvelsuperheroseptember.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,marvelsuperwar.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,mickey.tv,🐹 DisneyPlus
+DOMAIN-SUFFIX,moviesanywhere.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,natgeomaps.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,nationalgeographic.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,nationalgeographicpartners.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,ngeo.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,nomadlandmovie.ch,🐹 DisneyPlus
+DOMAIN-SUFFIX,playmation.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,shopdisney.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,shops-disney.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,sorcerersarena.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,spaindisney.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,star-brasil.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,star-latam.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,starott.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,starplus.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,starwars.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,starwarskids.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,streamingdisney.net,🐹 DisneyPlus
+DOMAIN-SUFFIX,themarvelexperiencetour.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,thestationbymaker.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,thewaltdisneycompany.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,thisispolaris.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,watchdisneyfe.com,🐹 DisneyPlus
+DOMAIN-SUFFIX,watchespn.com,🐹 DisneyPlus
+PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,🐹 DisneyPlus
+PROCESS-NAME,com.disney.disneyplus,🐹 DisneyPlus
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,📽️ PrimeVideo
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,📽️ PrimeVideo
+DOMAIN,d25xi40x97liuc.cloudfront.net,📽️ PrimeVideo
+DOMAIN,d27xxe7juh1us6.cloudfront.net,📽️ PrimeVideo
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,📽️ PrimeVideo
+DOMAIN-SUFFIX,aiv-cdn.net,📽️ PrimeVideo
+DOMAIN-SUFFIX,aiv-delivery.net,📽️ PrimeVideo
+DOMAIN-SUFFIX,amazonprimevideo.cn,📽️ PrimeVideo
+DOMAIN-SUFFIX,amazonprimevideo.com.cn,📽️ PrimeVideo
+DOMAIN-SUFFIX,amazonprimevideos.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,amazonvideo.cc,📽️ PrimeVideo
+DOMAIN-SUFFIX,amazonvideo.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,atv-ps.amazon.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net,📽️ PrimeVideo
+DOMAIN-SUFFIX,fls-na.amazon.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,llnwd.net,📽️ PrimeVideo
+DOMAIN-SUFFIX,media-amazon.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,prime-video.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,primevideo.cc,📽️ PrimeVideo
+DOMAIN-SUFFIX,primevideo.com,📽️ PrimeVideo
+DOMAIN-SUFFIX,primevideo.info,📽️ PrimeVideo
+DOMAIN-SUFFIX,primevideo.org,📽️ PrimeVideo
+DOMAIN-SUFFIX,primevideo.tv,📽️ PrimeVideo
+DOMAIN-SUFFIX,pv-cdn.net,📽️ PrimeVideo
+DOMAIN-KEYWORD,avoddashs,📽️ PrimeVideo
+PROCESS-NAME,com.amazon.avod.thirdpartyclient,📽️ PrimeVideo
+DOMAIN,wmff.warnermediacdn.com,🎦 HBOGO
+DOMAIN-SUFFIX,hboasia.com,🎦 HBOGO
+DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,🎦 HBOGO
+DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,🎦 HBOGO
+DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,🎦 HBOGO
+DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,🎦 HBOGO
+DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,🎦 HBOGO
+DOMAIN-SUFFIX,hboasialive.akamaized.net,🎦 HBOGO
+DOMAIN-SUFFIX,hbogo.co.th,🎦 HBOGO
+DOMAIN-SUFFIX,hbogo.com,🎦 HBOGO
+DOMAIN-SUFFIX,hbogo.eu,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoasia.com,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoasia.hk,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoasia.id,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoasia.ph,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoasia.sg,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoasia.tw,🎦 HBOGO
+DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,🎦 HBOGO
+DOMAIN-SUFFIX,hbomaxcdn.com,🎦 HBOGO
+DOMAIN-SUFFIX,now-ashare.com,🎦 HBOGO
+DOMAIN-SUFFIX,now-tv.com,🎦 HBOGO
+DOMAIN-SUFFIX,now.com.hk,🎦 HBOGO
+DOMAIN-SUFFIX,nowe.com,🎦 HBOGO
+DOMAIN-SUFFIX,nowe.hk,🎦 HBOGO
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🎦 HBOGO
+DOMAIN,bcbolthboa-a.akamaihd.net,🎦 HBOGO
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🎦 HBOGO
+DOMAIN,dai3fd1oh325y.cloudfront.net,🎦 HBOGO
+DOMAIN,hboasia1-i.akamaihd.net,🎦 HBOGO
+DOMAIN,hboasia2-i.akamaihd.net,🎦 HBOGO
+DOMAIN,hboasia3-i.akamaihd.net,🎦 HBOGO
+DOMAIN,hboasia4-i.akamaihd.net,🎦 HBOGO
+DOMAIN,hboasia5-i.akamaihd.net,🎦 HBOGO
+DOMAIN,hboasialive.akamaized.net,🎦 HBOGO
+DOMAIN,hbogoprod-vod.akamaized.net,🎦 HBOGO
+DOMAIN,hbolb.onwardsmg.com,🎦 HBOGO
+DOMAIN,hbounify-prod.evergent.com,🎦 HBOGO
+DOMAIN,players.brightcove.net,🎦 HBOGO
+DOMAIN,s3-ap-southeast-1.amazonaws.com,🎦 HBOGO
+DOMAIN-KEYWORD,.hbogoasia.,🎦 HBOGO
+DOMAIN,wmff.warnermediacdn.com,🎦 HBOMAX
+DOMAIN-SUFFIX,cinemax.com,🎦 HBOMAX
+DOMAIN-SUFFIX,discomax.com,🎦 HBOMAX
+DOMAIN-SUFFIX,h264.io,🎦 HBOMAX
+DOMAIN-SUFFIX,hbomax.com,🎦 HBOMAX
+DOMAIN-SUFFIX,hbomaxcdn.com,🎦 HBOMAX
+DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net,🎦 HBOMAX
+DOMAIN-SUFFIX,hbonow.com,🎦 HBOMAX
+DOMAIN-SUFFIX,maxgo.com,🎦 HBOMAX
+PROCESS-NAME,com.hbo.hbonow,🎦 HBOMAX
+DOMAIN,hls-amt.itunes.apple.com,🍎 AppleTV
+DOMAIN,hls.itunes.apple.com,🍎 AppleTV
+DOMAIN,np-edge.itunes.apple.com,🍎 AppleTV
+DOMAIN,play-edge.itunes.apple.com,🍎 AppleTV
+DOMAIN,tv.applemusic.com,🍎 AppleTV
+DOMAIN,uts-api.itunes.apple.com,🍎 AppleTV
+DOMAIN-SUFFIX,tv.apple.com,🍎 AppleTV
+PROCESS-NAME,TV,🍎 AppleTV
+DOMAIN-KEYWORD,emby,🎬 EMBY
+DOMAIN-KEYWORD,magpie,🎬 EMBY
+DOMAIN-SUFFIX,emby.riches.cloud,🎬 EMBY
+DOMAIN-SUFFIX,emby.misakaf.xyz,🎬 EMBY
+DOMAIN-SUFFIX,embyaz.misakaf.xyz,🎬 EMBY
+DOMAIN-SUFFIX,emby.milkcat.net,🎬 EMBY
+DOMAIN-SUFFIX,pornemby.maoxiong.cloud,🎬 EMBY
+DOMAIN-SUFFIX,maoxiong.cloud,🎬 EMBY
+DOMAIN-SUFFIX,cu.poloemby.xyz,🎬 EMBY
+DOMAIN-SUFFIX,zzl.poloemby.xyz,🎬 EMBY
+DOMAIN-SUFFIX,zf.hk01.77is.top,🎬 EMBY
+DOMAIN-SUFFIX,sg.gcx920110.com,🎬 EMBY
+DOMAIN-SUFFIX,hs.gcx920110.com,🎬 EMBY
+DOMAIN-SUFFIX,play.charontv.com,🎬 EMBY
+DOMAIN-SUFFIX,wptv.ii00.cc,🎬 EMBY
+DOMAIN-SUFFIX,wgtv.ii00.cc,🎬 EMBY
+IP-CIDR,161.97.148.156/24,🎬 EMBY,no-resolve
+DOMAIN,emby.enjoyit.eu.org,🎬 EMBY
+DOMAIN,emby.lcloud.wiki,🎬 EMBY
+DOMAIN,notnetflix.cos.cat,🎬 EMBY
+DOMAIN-SUFFIX,123456.al,🎬 EMBY
+DOMAIN-SUFFIX,285286.xyz,🎬 EMBY
+DOMAIN-SUFFIX,agahk1.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,agajp1.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,agasg1.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,aws.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,cf1.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,cristiamo.xyz,🎬 EMBY
+DOMAIN-SUFFIX,emby.cjpc.cc,🎬 EMBY
+DOMAIN-SUFFIX,emby.cjpc.tv,🎬 EMBY
+DOMAIN-SUFFIX,emby.cjpc.xyz,🎬 EMBY
+DOMAIN-SUFFIX,emby.cristiamo.top,🎬 EMBY
+DOMAIN-SUFFIX,emby.flowercloud.yt,🎬 EMBY
+DOMAIN-SUFFIX,emby.immtel.com,🎬 EMBY
+DOMAIN-SUFFIX,emby.maying.club,🎬 EMBY
+DOMAIN-SUFFIX,emby.mcwy.me,🎬 EMBY
+DOMAIN-SUFFIX,emby.mdss.cloud,🎬 EMBY
+DOMAIN-SUFFIX,emby.neko.edu.rs,🎬 EMBY
+DOMAIN-SUFFIX,emby.nexitally.com,🎬 EMBY
+DOMAIN-SUFFIX,emby.nyancat.net,🎬 EMBY
+DOMAIN-SUFFIX,emby.ok.edu.hk,🎬 EMBY
+DOMAIN-SUFFIX,emby.paoche.ooo,🎬 EMBY
+DOMAIN-SUFFIX,emby.prprcloud.com,🎬 EMBY
+DOMAIN-SUFFIX,emby.wtf,🎬 EMBY
+DOMAIN-SUFFIX,emby.xeton.dev,🎬 EMBY
+DOMAIN-SUFFIX,emby.ytoo.li,🎬 EMBY
+DOMAIN-SUFFIX,embymv.tk,🎬 EMBY
+DOMAIN-SUFFIX,embyplus.org,🎬 EMBY
+DOMAIN-SUFFIX,embyserver.ga,🎬 EMBY
+DOMAIN-SUFFIX,hinet.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,imetyou.top,🎬 EMBY
+DOMAIN-SUFFIX,jellyfin.asia,🎬 EMBY
+DOMAIN-SUFFIX,jellyfin.xeton.dev,🎬 EMBY
+DOMAIN-SUFFIX,line.emby.men,🎬 EMBY
+DOMAIN-SUFFIX,mickeycloud.com,🎬 EMBY
+DOMAIN-SUFFIX,movie.xeton.dev,🎬 EMBY
+DOMAIN-SUFFIX,ntt1.jmsooo.com,🎬 EMBY
+DOMAIN-SUFFIX,ohhhh.org,🎬 EMBY
+DOMAIN-SUFFIX,peachmv.me,🎬 EMBY
+DOMAIN-SUFFIX,pilipiliultra.com,🎬 EMBY
+DOMAIN-SUFFIX,plusmedia.site,🎬 EMBY
+DOMAIN-SUFFIX,poloemby.xyz,🎬 EMBY
+DOMAIN-SUFFIX,pornemby.club,🎬 EMBY
+DOMAIN-SUFFIX,servers.xeton.dev,🎬 EMBY
+DOMAIN-SUFFIX,xmsl.org,🎬 EMBY
+DOMAIN-KEYWORD,emby.wtf,🎬 EMBY
+DOMAIN-KEYWORD,jmsooo,🎬 EMBY
+DOMAIN-KEYWORD,odysseyplus,🎬 EMBY
+PROCESS-NAME,com.mb.android,🎬 EMBY
+DOMAIN,bahamut.akamaized.net,📺 巴哈姆特
+DOMAIN-SUFFIX,bahamut.com.tw,📺 巴哈姆特
+DOMAIN-SUFFIX,digicert.com,📺 巴哈姆特
+DOMAIN-SUFFIX,gamer.com.tw,📺 巴哈姆特
+DOMAIN-SUFFIX,gvt1.com,📺 巴哈姆特
+DOMAIN-SUFFIX,hinet.net,📺 巴哈姆特
+DOMAIN-SUFFIX,viblast.com,📺 巴哈姆特
